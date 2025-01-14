@@ -1,0 +1,13 @@
+Results of applying monomial prediction method on 11 rounds of Sonic_32
+####################################################################################################
+Fixed input positions: [0]
+Key-independent output positions: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Number of key-independent bits: 16
+####################################################################################################
+Fixed input positions: [1]
+Key-independent output positions: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Number of key-independent bits: 16
+####################################################################################################
+Fixed input positions: [2]
+Key-independent output positions: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Number of key-independent bits: 16

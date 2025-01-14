@@ -1,0 +1,20 @@
+In this repository we provode python code for computing differential and linear trail for Sonic.
+
+Those python code use the Gurobi Solver to solve MILP model
+Thise code is writen with python3 
+
+To compute differential trail :  python3 diff_trail_search_sonic.py SIZE nbr_round file_rotation_val
+
+To compute linear trail : python3 linear_trail_search_sonic.py SIZE nbr_round file_rotation_val
+
+the python code take a file of rotation set and compute trail for nbr_round for each set of rotation and print the ones with the highest minimal weight
+
+
+To give a specific set of rotation value :
+
+   python3 exe.py SIZE p0 p1 p2 q0 q1 q2 m (nbr_round_start (nbr_round_end))
+
+where the p and q variable are according to the specification.
+The number round start and end are optional, if none is given then trail are computed for 1 to 7 round,
+if only a start is given then trail are computed for one round wich is the start,
+if start and end are given then trail a computed from start to end.

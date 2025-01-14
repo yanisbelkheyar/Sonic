@@ -1,0 +1,384 @@
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [0]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2175.60
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [1]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2483.79
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [2]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1751.82
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [3]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2139.62
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [4]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2365.80
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [5]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1985.71
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [6]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1589.86
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [7]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2518.40
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [8]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2443.68
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [9]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2242.20
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [10]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2381.43
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [11]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1683.18
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [12]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2371.51
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [13]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2268.00
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [14]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2552.54
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [15]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2495.81
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [16]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2113.55
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [17]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1238.04
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [18]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2184.96
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [19]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2113.07
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [20]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2281.30
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [21]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2119.68
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [22]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2138.23
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [23]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1835.45
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [24]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1814.93
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [25]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2258.02
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [26]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2257.00
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [27]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2609.99
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [28]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2006.06
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [29]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 1946.00
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [30]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2344.13
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [31]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 2279.23
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [32]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 477.42
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [33]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 423.92
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [34]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 468.70
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [35]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 458.38
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [36]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 407.67
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [37]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 482.91
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [38]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 425.27
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [39]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 224.53
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [40]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 400.76
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [41]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 386.38
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [42]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 463.45
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [43]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 369.25
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [44]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 330.09
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [45]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 338.56
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [46]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 400.45
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [47]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 364.34
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [48]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 372.78
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [49]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 413.50
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [50]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 458.15
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [51]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 472.48
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [52]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 471.08
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [53]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 381.19
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [54]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 505.28
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [55]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 361.34
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [56]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 355.52
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [57]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 377.05
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [58]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 403.18
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [59]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 487.64
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [60]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 299.52
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [61]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 334.55
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [62]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 300.27
+Results of applying monomial prediction method on 16 rounds of Sonicpermute_64.
+####################################################################################################
+Fixed input positions: [63]
+Key-independent output positions: []
+Number of key-independent bits: 0
+Total time to compute monomial prediction dictionary (mpdict): 317.71

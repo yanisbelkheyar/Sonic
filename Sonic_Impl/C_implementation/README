@@ -1,0 +1,10 @@
+This repository contain the C reference implementation for Sonic256 and Sonic512
+
+The representation of the state is the following :
+
+0      63 64    127 | 128    192 193     256
+    left input      |      right input
+
+
+
+The makefile compile the .c files to run test for 256 and 512 bit version, and to test the differential probability of an r round differential.

@@ -1,0 +1,19 @@
+This directory contain the files to compute the result shown in the section about monomial propagation
+
+The main file is anf_experiment.sage.py
+
+    python3 anf_experiment.sage.py nbr_round (nbr_round_end)
+
+    if used with one argument, the distribution of degree and the number of terme are computed for the number of round specify
+    if used with two argument, the distribution of degree and the number of terme are computed for the number of round arg1 to arg2
+3 
+
+Example:
+	#compute and print the distribution of degree and the number of term for one round of sonic
+	 python3 anf_experiment.sage.py 1
+
+	 #compute and print the distribution of degree and the number of term for two round of simon
+	 python3 anf_experiment_simon.sage.py 2
+
+	 #compute and print the distribution of degree and the number of term for one to 3 round of sonic
+	 python3 anf_experiment.sage.py 1 3
