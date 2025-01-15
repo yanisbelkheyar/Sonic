@@ -1,37 +1,36 @@
 --------------------------------------------------------------------------------
---! @file       tb_sonicBoom.vhd
---! @brief      Testbench for the sonicBoom cipher.
+--! @file       tb_sonic256_inverse.vhd
+--! @brief      Testbench for the inverse of the sonic256 permutation.
 --!
 --! @author     
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
     
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity tb_sonicBoom is
+entity tb_sonic256_inverse is
     generic(
         PERIOD : time := 10 ns
     );
-end tb_sonicBoom;
+end tb_sonic256_inverse;
 
-architecture behavioral of tb_sonicBoom is
+architecture behavioral of tb_sonic256_inverse is
 
     ----------------------------------------------------------------------------
     -- DUT
     ----------------------------------------------------------------------------
 
-    component sonicBoom is
+    component sonic256_inverse is
         generic(
             SIZE    : integer := 256;
             nrRounds : integer  := 20
         );
         port (
-            key_i           : in  std_logic_vector(0 to SIZE-1);
-			message_i       : in  std_logic_vector(0 to SIZE-1);
+            message_i       : in  std_logic_vector(0 to SIZE-1);
             message_o       : out std_logic_vector(0 to SIZE-1);
             clk_i           : in std_logic
         );
@@ -43,7 +42,6 @@ architecture behavioral of tb_sonicBoom is
     
     -- input
     signal test_message_i       : std_logic_vector(0 to SIZE-1);
-	signal test_key_i           : std_logic_vector(0 to SIZE-1);
     -- output
     signal test_message_o       : std_logic_vector(0 to SIZE-1);
 
@@ -63,16 +61,15 @@ architecture behavioral of tb_sonicBoom is
 begin
 
     -- dut instantiation
-    u_sonicBoom : sonicBoom
+    u_sonic : sonic256_inverse
         generic map( 
             SIZE => SIZE,
             nrRounds => nrRounds
         )
         port map(
-			key_i          => test_key_i,
+            clk_i          => clk_s,
             message_i      => test_message_i,
-            message_o      => test_message_o,
-            clk_i          => clk_s
+            message_o      => test_message_o
         );
   
     -- clock process
@@ -91,14 +88,12 @@ begin
         
             -- reset
             test_message_i      <= (others => '0');
-			test_key_i      <= (others => '0');
             test_error          <= '0';
             
             wait for PERIOD;
             -- test data
-            test_message_i <= x"0000000000000000000000000000000000000000000000000000000000000000";
-			test_key_i <= x"0000000000000000000000000000000000000000000000000000000000000000";
-            real_message_o      <= x"f24671dbd325467c2c7754cb945564af640b351978d01a6cfa10ea8b725a0c59";
+            test_message_i <= x"f24671dbd325467c2c7754cb945564af640b351978d01a6cfa10ea8b725a0c59";
+            real_message_o      <= x"0000000000000000000000000000000000000000000000000000000000000000";
             wait for PERIOD;
             -- check result
             if (real_message_o = test_message_o) then
@@ -112,8 +107,8 @@ begin
             
             wait for PERIOD;
             -- test data
-            test_message_i <= x"327b23c66b8b456766334873643c986919495cff74b0dc51625558ec2ae8944a";
-            test_key_i <= x"9ec7536bf53af8146171182ef556410711cb062e4b1f520b3b9c13811f3e2012";real_message_o      <= x"1e6bbee29f4e157cf14a648b75c7200d040e8354606e34f783f8af156adaa6e9";
+            test_message_i <= x"9e5658c4ffde1b5fa9391c1aded2eb46cb0eb42dc4692c0bb12aff450382e391";
+            real_message_o      <= x"327b23c66b8b456766334873643c986919495cff74b0dc51625558ec2ae8944a";
             wait for PERIOD;
             -- check result
             if (real_message_o = test_message_o) then
@@ -127,9 +122,8 @@ begin
             
             wait for PERIOD;
             -- test data
-            test_message_i <= x"327b23c66b8b456766334873643c986919495cff74b0dc51625558ec2ae8944a";
-            test_key_i <= x"46e87ccd238e1f29507ed7ab3d1b58ba41b71efb2eb141f27545e14679e2a9e3";
-			real_message_o      <= x"a9dbb55f2fe232bbf8f31d053e8ed1e2ef5595d984dfbfd769b9c88d17933366";
+            test_message_i <= x"9ec7536bf53af8146171182ef556410711cb062e4b1f520b3b9c13811f3e2012";
+            real_message_o      <= x"46e87ccd238e1f29507ed7ab3d1b58ba41b71efb2eb141f27545e14679e2a9e3";
             wait for PERIOD;
             -- check result
             if (real_message_o = test_message_o) then
@@ -140,6 +134,26 @@ begin
                 report "Computed value do not match expected one" severity note;
             end if;
             wait for PERIOD;
+            
+            wait for PERIOD;
+            -- test data
+            test_message_i <= x"38c3c7b43329c3d436327d76ca0fd12f89b022d7b058f938402d4da122fa06fb";
+            real_message_o      <= x"5bd062c2515f007c4db127f8122008541f16e9e80216231b66ef438d1190cde7";
+            wait for PERIOD;
+            -- check result
+            if (real_message_o = test_message_o) then
+                test_error <= '0';
+                report "Computed value matches expected one" severity note;
+            else
+                test_error <= '1';
+                report "Computed value do not match expected one" severity note;
+            end if;
+            wait for PERIOD;
+            
+            
+            
+            
+            
             test_bench_finish <= true;
             wait;
     

@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
     
 library ieee;
 use ieee.std_logic_1164.all;
@@ -50,13 +50,6 @@ begin  -- rtl
     
     t_y <= (x_in(pi_5 to SIZE/2-1) & x_in(0 to pi_5-1)) xor y_in xor (x_in and (x_in(pi_1 to SIZE/2-1) & x_in(0 to pi_1-1))); -- τ5(x) ^ y ^ (x ∧ τ(x))
     t_x <= (x_in xor (x_in(pi_7 to SIZE/2-1) & x_in(0 to pi_7-1))) xor ((x_in(pi_32 to SIZE/2-1) & x_in(0 to pi_32-1)) xor rc_i); -- x ^ τ7(x) ^ τ32(x) ^ c
-    
-    -- pi_i : for i in 0 to SIZE/2-1 generate
-    --     x_out(i) <= t_y((15*i) mod (SIZE/2));
-    --     y_out(i) <= t_x((15*i) mod (SIZE/2));
-    -- end generate;
-    
-    -- round_o  <= x_out & y_out;
     
     round_o  <= t_y & t_x;
     

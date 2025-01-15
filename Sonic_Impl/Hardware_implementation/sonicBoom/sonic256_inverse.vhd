@@ -1,38 +1,45 @@
 --------------------------------------------------------------------------------
---! @file       sonic.vhd
---! @brief      The sonic permutation.
+--! @file       sonic256_inverse.vhd
+--! @brief      The inverse of the sonic256 permutation.
 --!
 --! @author     
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 
-entity sonic is
+entity sonic256_inverse is
     generic(
-        SIZE    : integer := SIZE;
-        nrRounds : integer  := nrRounds
+        SIZE    : integer := 256;
+        nrRounds : integer  := 20
     );
     port (
         message_i       : in  std_logic_vector(0 to SIZE-1);
         message_o       : out std_logic_vector(0 to SIZE-1);
         clk_i           : in std_logic
     );
-end sonic;
+end sonic256_inverse;
 
-architecture rtl of sonic is
+architecture rtl of sonic256_inverse is
 
     ----------------------------------------------------------------------------
     -- Components
     ----------------------------------------------------------------------------
 
-    component sonic_round is
+    component sonic_round_inverse is
         generic ( 
-            SIZE   : integer := SIZE
+            SIZE   : integer := 256;
+            pi_1   : integer := 1;
+            pi_5   : integer := 5;
+            pi_7   : integer := 7;
+            pi_32  : integer := 32;
+            pi_14  : integer := 14;
+            pi_64  : integer := 64;
+            pi_100 : integer := 100
         );
         port (
             round_i : in  std_logic_vector(0 to SIZE-1);
@@ -47,8 +54,7 @@ architecture rtl of sonic is
 
     -- datapath
     signal round_in_s, round_out_s : state;
-    signal left_in, right_in, left_out, right_out : std_logic_vector(0 to SIZE/2-1);
-
+    
     ----------------------------------------------------------------------------
     -- Begin
     ----------------------------------------------------------------------------
@@ -65,28 +71,26 @@ begin  -- rtl
             round_in_s(I) <= round_out_s(I - 1);
         end generate; -- end INPUT_STATE_FROM_PREVIOUS
         
-        round_I : sonic_round
+        round_I : sonic_round_inverse
             generic map (
-                SIZE   => SIZE
+                SIZE   => SIZE,
+                pi_1   => pi_1_offsets(I),
+                pi_5   => pi_5_offsets(I),
+                pi_7   => pi_7_offsets(I),
+                pi_32  => pi_32_offsets(I),
+                pi_14  => pi_14_offsets(I),
+                pi_64  => pi_64_offsets(I),
+                pi_100 => pi_100_offsets(I)
+                
             )
             port map(
                 round_i => round_in_s(I),
-                rc_i    => round_constants(nrRounds-1-I),
+                rc_i    => round_constants(I),
                 round_o => round_out_s(I)
             );
     
     end generate; -- end ROUNDS
     
-    -- correction
-    left_in <= round_out_s(nrRounds-1)(0 to SIZE/2-1);
-    right_in <= round_out_s(nrRounds-1)(SIZE/2 to SIZE-1);
+    message_o <= round_out_s(nrRounds-1);
     
-    pi_i : for i in 0 to SIZE/2-1 generate
-        left_out(i) <= left_in((65*i) mod (SIZE/2));
-        right_out(i) <= right_in((65*i) mod (SIZE/2));
-    end generate;
-    
-    -- output
-    message_o <= left_out & right_out;
-
 end rtl;

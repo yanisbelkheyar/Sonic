@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
     
 library ieee;
 use ieee.std_logic_1164.all;

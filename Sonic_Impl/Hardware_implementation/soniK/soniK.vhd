@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -35,7 +35,7 @@ architecture rtl of soniK is
     -- Components
     ----------------------------------------------------------------------------
 
-    component sonic is
+    component sonic256 is
         generic(
             SIZE    : integer := 256;
             nrRounds : integer  := 20
@@ -77,7 +77,7 @@ begin  -- rtl
     data_o    <= data_out_s;
 
     -- instances
-    sonic_i : sonic
+    sonic_i : sonic256
         generic map (
             SIZE   => 256,
             nrRounds => 20

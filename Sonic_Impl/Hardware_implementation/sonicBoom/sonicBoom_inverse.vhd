@@ -1,18 +1,18 @@
 --------------------------------------------------------------------------------
---! @file       sonicBoom.vhd
---! @brief      The sonicBoom block cipher (Even-Mansour+sonic256).
+--! @file       sonicBoom_inverse.vhd
+--! @brief      The inverse of sonicBoom block cipher (Even-Mansour+sonic256).
 --!
 --! @author
 --------------------------------------------------------------------------------
 
 library work;
-    use work.sonic_pkg.all;
+    use work.sonic256_pkg.all;
 
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 
-entity sonicBoom is
+entity sonicBoom_inverse is
     generic(
         SIZE    : integer := 256;
         nrRounds : integer  := 20
@@ -23,15 +23,15 @@ entity sonicBoom is
         message_o       : out std_logic_vector(0 to SIZE-1);
         clk_i           : in std_logic
     );
-end sonicBoom;
+end sonicBoom_inverse;
 
-architecture rtl of sonicBoom is
+architecture rtl of sonicBoom_inverse is
 
     ----------------------------------------------------------------------------
     -- Components
     ----------------------------------------------------------------------------
 
-    component sonic is
+    component sonic256_inverse is
         generic(
             SIZE    : integer := 256;
             nrRounds : integer  := 20
@@ -61,7 +61,7 @@ begin  -- rtl
     key_s     <= key_i;
 
     -- sonic
-    sonic_i : sonic
+    sonic_i : sonic256_inverse
         generic map (
             SIZE   => 256,
             nrRounds => 20

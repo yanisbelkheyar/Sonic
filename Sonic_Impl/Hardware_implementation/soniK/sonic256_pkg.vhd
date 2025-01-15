@@ -10,11 +10,11 @@ library IEEE;
 
 library work;
 
-package sonic_pkg is
+package sonic256_pkg is
     
-	-- reset
-	constant active_rst : std_logic := '0';
-	
+    -- reset
+    constant active_rst : std_logic := '0';
+    
     -- size
     constant SIZE         : integer := 256;
     -- number of rounds
@@ -46,10 +46,13 @@ package sonic_pkg is
                                             x"00008000000000008000000000000000",  -- 90
                                             x"00000000800080008000800080000000"); -- 7c
     
-    constant pi_1_offsets : offsets := (47,97,15,1,111,33,79,65,47,97,15,1,111,33,79,65,47,97,15,1);
-    constant pi_5_offsets : offsets := (107,101,75,5,43,37,11,69,107,101,75,5,43,37,11,69,107,101,75,5);
-    constant pi_7_offsets : offsets := (73,39,105,7,9,103,41,71,73,39,105,7,9,103,41,71,73,39,105,7);
-    constant pi_32_offsets : offsets := (96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32);
+    constant pi_1_offsets   : offsets := (47,97,15,1,111,33,79,65,47,97,15,1,111,33,79,65,47,97,15,1);
+    constant pi_5_offsets   : offsets := (107,101,75,5,43,37,11,69,107,101,75,5,43,37,11,69,107,101,75,5);
+    constant pi_7_offsets   : offsets := (73,39,105,7,9,103,41,71,73,39,105,7,9,103,41,71,73,39,105,7);
+    constant pi_32_offsets  : offsets := (96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32,96,32);
+    constant pi_14_offsets  : offsets := (18,78,82,14,18,78,82,14,18,78,82,14,18,78,82,14,18,78,82,14);
+    constant pi_64_offsets  : offsets := (64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64);
+    constant pi_100_offsets : offsets := (92,100,92,100,92,100,92,100,92,100,92,100,92,100,92,100,92,100,92,100);
     
 end package;
 
