@@ -1,0 +1,1211 @@
+=======================================
+result_sonic_4_0_0_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.82 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.26 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_4, k_0_5, k_0_133, k_0_6, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_13, k_0_15, k_0_143, k_0_16, k_0_144, k_0_17, k_0_19, k_0_147, k_0_20, k_0_21, k_0_149, k_0_22, k_0_150, k_0_23, k_0_24, k_0_25, k_0_153, k_0_26, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_34, k_0_35, k_0_163, k_0_36, k_0_37, k_0_38, k_0_40, k_0_41, k_0_169, k_0_42, k_0_46, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_55, k_0_56, k_0_57, k_0_185, k_0_58, k_0_62, k_0_65, k_0_193, k_0_66, k_0_69, k_0_197, k_0_70, k_0_72, k_0_200, k_0_73, k_0_74, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_85, k_0_104, k_0_232, k_0_105, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_1_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.01 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_129, k_0_2, k_0_4, k_0_132, k_0_5, k_0_6, k_0_134, k_0_7, k_0_135, k_0_8, k_0_9, k_0_10, k_0_138, k_0_11, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_19, k_0_20, k_0_148, k_0_21, k_0_22, k_0_23, k_0_25, k_0_26, k_0_154, k_0_27, k_0_31, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_40, k_0_41, k_0_42, k_0_170, k_0_43, k_0_47, k_0_50, k_0_178, k_0_51, k_0_54, k_0_182, k_0_55, k_0_57, k_0_185, k_0_58, k_0_59, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_70, k_0_89, k_0_217, k_0_90, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_240, k_0_113, k_0_241, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_117, k_0_118, k_0_246, k_0_119, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_2_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 90.00 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_4, k_0_5, k_0_133, k_0_6, k_0_7, k_0_8, k_0_10, k_0_11, k_0_139, k_0_12, k_0_16, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_25, k_0_26, k_0_27, k_0_155, k_0_28, k_0_32, k_0_35, k_0_163, k_0_36, k_0_39, k_0_167, k_0_40, k_0_42, k_0_170, k_0_43, k_0_44, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_55, k_0_74, k_0_202, k_0_75, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_225, k_0_98, k_0_226, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_102, k_0_103, k_0_231, k_0_104, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_111, k_0_113, k_0_241, k_0_114, k_0_242, k_0_115, k_0_117, k_0_245, k_0_118, k_0_119, k_0_247, k_0_120, k_0_248, k_0_121, k_0_122, k_0_123, k_0_251, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_3_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.93 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.84 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_10, k_0_11, k_0_12, k_0_140, k_0_13, k_0_17, k_0_20, k_0_148, k_0_21, k_0_24, k_0_152, k_0_25, k_0_27, k_0_155, k_0_28, k_0_29, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_40, k_0_59, k_0_187, k_0_60, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_210, k_0_83, k_0_211, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_87, k_0_88, k_0_216, k_0_89, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_96, k_0_98, k_0_226, k_0_99, k_0_227, k_0_100, k_0_102, k_0_230, k_0_103, k_0_104, k_0_232, k_0_105, k_0_233, k_0_106, k_0_107, k_0_108, k_0_236, k_0_109, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_117, k_0_118, k_0_246, k_0_119, k_0_120, k_0_121, k_0_123, k_0_124, k_0_252, k_0_125
+=======================================
+result_sonic_4_0_4_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.96 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_5, k_0_133, k_0_6, k_0_9, k_0_137, k_0_10, k_0_12, k_0_140, k_0_13, k_0_14, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_25, k_0_44, k_0_172, k_0_45, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_195, k_0_68, k_0_196, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_72, k_0_73, k_0_201, k_0_74, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_81, k_0_83, k_0_211, k_0_84, k_0_212, k_0_85, k_0_87, k_0_215, k_0_88, k_0_89, k_0_217, k_0_90, k_0_218, k_0_91, k_0_92, k_0_93, k_0_221, k_0_94, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_102, k_0_103, k_0_231, k_0_104, k_0_105, k_0_106, k_0_108, k_0_109, k_0_237, k_0_110, k_0_114, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_123, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_5_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.69 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.34 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_10, k_0_29, k_0_157, k_0_30, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_180, k_0_53, k_0_181, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_57, k_0_58, k_0_186, k_0_59, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_66, k_0_68, k_0_196, k_0_69, k_0_197, k_0_70, k_0_72, k_0_200, k_0_73, k_0_74, k_0_202, k_0_75, k_0_203, k_0_76, k_0_77, k_0_78, k_0_206, k_0_79, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_87, k_0_88, k_0_216, k_0_89, k_0_90, k_0_91, k_0_93, k_0_94, k_0_222, k_0_95, k_0_99, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_108, k_0_109, k_0_110, k_0_238, k_0_111, k_0_115, k_0_118, k_0_246, k_0_119, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_6_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.29 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.09 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_14, k_0_142, k_0_15, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_165, k_0_38, k_0_166, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_42, k_0_43, k_0_171, k_0_44, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_51, k_0_53, k_0_181, k_0_54, k_0_182, k_0_55, k_0_57, k_0_185, k_0_58, k_0_59, k_0_187, k_0_60, k_0_188, k_0_61, k_0_62, k_0_63, k_0_191, k_0_64, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_72, k_0_73, k_0_201, k_0_74, k_0_75, k_0_76, k_0_78, k_0_79, k_0_207, k_0_80, k_0_84, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_93, k_0_94, k_0_95, k_0_223, k_0_96, k_0_100, k_0_103, k_0_231, k_0_104, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_123
+=======================================
+result_sonic_4_0_7_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.08 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.93 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_150, k_0_23, k_0_151, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_27, k_0_28, k_0_156, k_0_29, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_36, k_0_38, k_0_166, k_0_39, k_0_167, k_0_40, k_0_42, k_0_170, k_0_43, k_0_44, k_0_172, k_0_45, k_0_173, k_0_46, k_0_47, k_0_48, k_0_176, k_0_49, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_57, k_0_58, k_0_186, k_0_59, k_0_60, k_0_61, k_0_63, k_0_64, k_0_192, k_0_65, k_0_69, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_78, k_0_79, k_0_80, k_0_208, k_0_81, k_0_85, k_0_88, k_0_216, k_0_89, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_108, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_8_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.16 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_135, k_0_8, k_0_136, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_12, k_0_13, k_0_141, k_0_14, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_21, k_0_23, k_0_151, k_0_24, k_0_152, k_0_25, k_0_27, k_0_155, k_0_28, k_0_29, k_0_157, k_0_30, k_0_158, k_0_31, k_0_32, k_0_33, k_0_161, k_0_34, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_42, k_0_43, k_0_171, k_0_44, k_0_45, k_0_46, k_0_48, k_0_49, k_0_177, k_0_50, k_0_54, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_63, k_0_64, k_0_65, k_0_193, k_0_66, k_0_70, k_0_73, k_0_201, k_0_74, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_93, k_0_112, k_0_240, k_0_113, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_9_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.03 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.21 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_6, k_0_8, k_0_136, k_0_9, k_0_137, k_0_10, k_0_12, k_0_140, k_0_13, k_0_14, k_0_142, k_0_15, k_0_143, k_0_16, k_0_17, k_0_18, k_0_146, k_0_19, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_27, k_0_28, k_0_156, k_0_29, k_0_30, k_0_31, k_0_33, k_0_34, k_0_162, k_0_35, k_0_39, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_48, k_0_49, k_0_50, k_0_178, k_0_51, k_0_55, k_0_58, k_0_186, k_0_59, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_78, k_0_97, k_0_225, k_0_98, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_248, k_0_121, k_0_249, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_10_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.87 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.11 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_3, k_0_131, k_0_4, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_12, k_0_13, k_0_141, k_0_14, k_0_15, k_0_16, k_0_18, k_0_19, k_0_147, k_0_20, k_0_24, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_33, k_0_34, k_0_35, k_0_163, k_0_36, k_0_40, k_0_43, k_0_171, k_0_44, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_63, k_0_82, k_0_210, k_0_83, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_233, k_0_106, k_0_234, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_110, k_0_111, k_0_239, k_0_112, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_119, k_0_121, k_0_249, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_11_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.87 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.22 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_3, k_0_4, k_0_132, k_0_5, k_0_9, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_18, k_0_19, k_0_20, k_0_148, k_0_21, k_0_25, k_0_28, k_0_156, k_0_29, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_48, k_0_67, k_0_195, k_0_68, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_218, k_0_91, k_0_219, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_95, k_0_96, k_0_224, k_0_97, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_104, k_0_106, k_0_234, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_240, k_0_113, k_0_241, k_0_114, k_0_115, k_0_116, k_0_244, k_0_117, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_12_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.51 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_3, k_0_4, k_0_5, k_0_133, k_0_6, k_0_10, k_0_13, k_0_141, k_0_14, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_33, k_0_52, k_0_180, k_0_53, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_203, k_0_76, k_0_204, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_80, k_0_81, k_0_209, k_0_82, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_89, k_0_91, k_0_219, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_225, k_0_98, k_0_226, k_0_99, k_0_100, k_0_101, k_0_229, k_0_102, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_110, k_0_111, k_0_239, k_0_112, k_0_113, k_0_114, k_0_116, k_0_117, k_0_245, k_0_118, k_0_122, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_13_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.90 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_18, k_0_37, k_0_165, k_0_38, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_188, k_0_61, k_0_189, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_65, k_0_66, k_0_194, k_0_67, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_74, k_0_76, k_0_204, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_210, k_0_83, k_0_211, k_0_84, k_0_85, k_0_86, k_0_214, k_0_87, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_95, k_0_96, k_0_224, k_0_97, k_0_98, k_0_99, k_0_101, k_0_102, k_0_230, k_0_103, k_0_107, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_116, k_0_117, k_0_118, k_0_246, k_0_119, k_0_123, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_14_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.87 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.85 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_3, k_0_22, k_0_150, k_0_23, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_173, k_0_46, k_0_174, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_50, k_0_51, k_0_179, k_0_52, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_59, k_0_61, k_0_189, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_195, k_0_68, k_0_196, k_0_69, k_0_70, k_0_71, k_0_199, k_0_72, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_80, k_0_81, k_0_209, k_0_82, k_0_83, k_0_84, k_0_86, k_0_87, k_0_215, k_0_88, k_0_92, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_101, k_0_102, k_0_103, k_0_231, k_0_104, k_0_108, k_0_111, k_0_239, k_0_112, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_15_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.54 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_7, k_0_135, k_0_8, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_158, k_0_31, k_0_159, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_35, k_0_36, k_0_164, k_0_37, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_44, k_0_46, k_0_174, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_180, k_0_53, k_0_181, k_0_54, k_0_55, k_0_56, k_0_184, k_0_57, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_65, k_0_66, k_0_194, k_0_67, k_0_68, k_0_69, k_0_71, k_0_72, k_0_200, k_0_73, k_0_77, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_86, k_0_87, k_0_88, k_0_216, k_0_89, k_0_93, k_0_96, k_0_224, k_0_97, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_116
+=======================================
+result_sonic_4_0_16_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.69 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.12 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_143, k_0_16, k_0_144, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_20, k_0_21, k_0_149, k_0_22, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_29, k_0_31, k_0_159, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_165, k_0_38, k_0_166, k_0_39, k_0_40, k_0_41, k_0_169, k_0_42, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_50, k_0_51, k_0_179, k_0_52, k_0_53, k_0_54, k_0_56, k_0_57, k_0_185, k_0_58, k_0_62, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_71, k_0_72, k_0_73, k_0_201, k_0_74, k_0_78, k_0_81, k_0_209, k_0_82, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_101, k_0_120, k_0_248, k_0_121, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_17_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.26 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_5, k_0_6, k_0_134, k_0_7, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_14, k_0_16, k_0_144, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_150, k_0_23, k_0_151, k_0_24, k_0_25, k_0_26, k_0_154, k_0_27, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_35, k_0_36, k_0_164, k_0_37, k_0_38, k_0_39, k_0_41, k_0_42, k_0_170, k_0_43, k_0_47, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_56, k_0_57, k_0_58, k_0_186, k_0_59, k_0_63, k_0_66, k_0_194, k_0_67, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_86, k_0_105, k_0_233, k_0_106, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_18_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.63 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_135, k_0_8, k_0_136, k_0_9, k_0_10, k_0_11, k_0_139, k_0_12, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_20, k_0_21, k_0_149, k_0_22, k_0_23, k_0_24, k_0_26, k_0_27, k_0_155, k_0_28, k_0_32, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_41, k_0_42, k_0_43, k_0_171, k_0_44, k_0_48, k_0_51, k_0_179, k_0_52, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_71, k_0_90, k_0_218, k_0_91, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_241, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_118, k_0_119, k_0_247, k_0_120, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_19_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.16 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.75 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_5, k_0_6, k_0_134, k_0_7, k_0_8, k_0_9, k_0_11, k_0_12, k_0_140, k_0_13, k_0_17, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_26, k_0_27, k_0_28, k_0_156, k_0_29, k_0_33, k_0_36, k_0_164, k_0_37, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_56, k_0_75, k_0_203, k_0_76, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_226, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_103, k_0_104, k_0_232, k_0_105, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_112, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_248, k_0_121, k_0_249, k_0_122, k_0_123, k_0_124, k_0_252, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_20_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.46 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.03 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_11, k_0_12, k_0_13, k_0_141, k_0_14, k_0_18, k_0_21, k_0_149, k_0_22, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_41, k_0_60, k_0_188, k_0_61, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_211, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_88, k_0_89, k_0_217, k_0_90, k_0_91, k_0_219, k_0_92, k_0_94, k_0_222, k_0_95, k_0_96, k_0_97, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_233, k_0_106, k_0_234, k_0_107, k_0_108, k_0_109, k_0_237, k_0_110, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_118, k_0_119, k_0_247, k_0_120, k_0_121, k_0_122, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_21_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.83 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.05 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_3, k_0_6, k_0_134, k_0_7, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_26, k_0_45, k_0_173, k_0_46, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_196, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_73, k_0_74, k_0_202, k_0_75, k_0_76, k_0_204, k_0_77, k_0_79, k_0_207, k_0_80, k_0_81, k_0_82, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_218, k_0_91, k_0_219, k_0_92, k_0_93, k_0_94, k_0_222, k_0_95, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_103, k_0_104, k_0_232, k_0_105, k_0_106, k_0_107, k_0_109, k_0_110, k_0_238, k_0_111, k_0_115, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_124, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_22_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.43 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.26 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_11, k_0_30, k_0_158, k_0_31, k_0_35, k_0_163, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_181, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_58, k_0_59, k_0_187, k_0_60, k_0_61, k_0_189, k_0_62, k_0_64, k_0_192, k_0_65, k_0_66, k_0_67, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_203, k_0_76, k_0_204, k_0_77, k_0_78, k_0_79, k_0_207, k_0_80, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_88, k_0_89, k_0_217, k_0_90, k_0_91, k_0_92, k_0_94, k_0_95, k_0_223, k_0_96, k_0_100, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_109, k_0_110, k_0_111, k_0_239, k_0_112, k_0_116, k_0_119, k_0_247, k_0_120, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_23_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.07 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.19 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_15, k_0_143, k_0_16, k_0_20, k_0_148, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_166, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_43, k_0_44, k_0_172, k_0_45, k_0_46, k_0_174, k_0_47, k_0_49, k_0_177, k_0_50, k_0_51, k_0_52, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_188, k_0_61, k_0_189, k_0_62, k_0_63, k_0_64, k_0_192, k_0_65, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_73, k_0_74, k_0_202, k_0_75, k_0_76, k_0_77, k_0_79, k_0_80, k_0_208, k_0_81, k_0_85, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_94, k_0_95, k_0_96, k_0_224, k_0_97, k_0_101, k_0_104, k_0_232, k_0_105, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_124
+=======================================
+result_sonic_4_0_24_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.37 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.03 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_5, k_0_133, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_151, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_28, k_0_29, k_0_157, k_0_30, k_0_31, k_0_159, k_0_32, k_0_34, k_0_162, k_0_35, k_0_36, k_0_37, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_173, k_0_46, k_0_174, k_0_47, k_0_48, k_0_49, k_0_177, k_0_50, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_58, k_0_59, k_0_187, k_0_60, k_0_61, k_0_62, k_0_64, k_0_65, k_0_193, k_0_66, k_0_70, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_79, k_0_80, k_0_81, k_0_209, k_0_82, k_0_86, k_0_89, k_0_217, k_0_90, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_109
+=======================================
+result_sonic_4_0_25_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.17 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.96 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_136, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_13, k_0_14, k_0_142, k_0_15, k_0_16, k_0_144, k_0_17, k_0_19, k_0_147, k_0_20, k_0_21, k_0_22, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_158, k_0_31, k_0_159, k_0_32, k_0_33, k_0_34, k_0_162, k_0_35, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_43, k_0_44, k_0_172, k_0_45, k_0_46, k_0_47, k_0_49, k_0_50, k_0_178, k_0_51, k_0_55, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_64, k_0_65, k_0_66, k_0_194, k_0_67, k_0_71, k_0_74, k_0_202, k_0_75, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_94, k_0_113, k_0_241, k_0_114, k_0_118, k_0_246, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_26_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.16 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.95 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_4, k_0_132, k_0_5, k_0_6, k_0_7, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_143, k_0_16, k_0_144, k_0_17, k_0_18, k_0_19, k_0_147, k_0_20, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_28, k_0_29, k_0_157, k_0_30, k_0_31, k_0_32, k_0_34, k_0_35, k_0_163, k_0_36, k_0_40, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_49, k_0_50, k_0_51, k_0_179, k_0_52, k_0_56, k_0_59, k_0_187, k_0_60, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_79, k_0_98, k_0_226, k_0_99, k_0_103, k_0_231, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_249, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_252, k_0_125, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_27_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.54 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.93 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_129, k_0_2, k_0_3, k_0_4, k_0_132, k_0_5, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_13, k_0_14, k_0_142, k_0_15, k_0_16, k_0_17, k_0_19, k_0_20, k_0_148, k_0_21, k_0_25, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_34, k_0_35, k_0_36, k_0_164, k_0_37, k_0_41, k_0_44, k_0_172, k_0_45, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_64, k_0_83, k_0_211, k_0_84, k_0_88, k_0_216, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_234, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_237, k_0_110, k_0_111, k_0_112, k_0_240, k_0_113, k_0_114, k_0_242, k_0_115, k_0_117, k_0_245, k_0_118, k_0_119, k_0_120, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_28_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.57 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.05 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_4, k_0_5, k_0_133, k_0_6, k_0_10, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_19, k_0_20, k_0_21, k_0_149, k_0_22, k_0_26, k_0_29, k_0_157, k_0_30, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_49, k_0_68, k_0_196, k_0_69, k_0_73, k_0_201, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_219, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_222, k_0_95, k_0_96, k_0_97, k_0_225, k_0_98, k_0_99, k_0_227, k_0_100, k_0_102, k_0_230, k_0_103, k_0_104, k_0_105, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_241, k_0_114, k_0_242, k_0_115, k_0_116, k_0_117, k_0_245, k_0_118, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_29_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 86.84 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_4, k_0_5, k_0_6, k_0_134, k_0_7, k_0_11, k_0_14, k_0_142, k_0_15, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_34, k_0_53, k_0_181, k_0_54, k_0_58, k_0_186, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_204, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_207, k_0_80, k_0_81, k_0_82, k_0_210, k_0_83, k_0_84, k_0_212, k_0_85, k_0_87, k_0_215, k_0_88, k_0_89, k_0_90, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_226, k_0_99, k_0_227, k_0_100, k_0_101, k_0_102, k_0_230, k_0_103, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_111, k_0_112, k_0_240, k_0_113, k_0_114, k_0_115, k_0_117, k_0_118, k_0_246, k_0_119, k_0_123, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_30_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.84 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.06 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_19, k_0_38, k_0_166, k_0_39, k_0_43, k_0_171, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_189, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_192, k_0_65, k_0_66, k_0_67, k_0_195, k_0_68, k_0_69, k_0_197, k_0_70, k_0_72, k_0_200, k_0_73, k_0_74, k_0_75, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_211, k_0_84, k_0_212, k_0_85, k_0_86, k_0_87, k_0_215, k_0_88, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_96, k_0_97, k_0_225, k_0_98, k_0_99, k_0_100, k_0_102, k_0_103, k_0_231, k_0_104, k_0_108, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_117, k_0_118, k_0_119, k_0_247, k_0_120, k_0_124, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_31_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.80 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.96 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_4, k_0_23, k_0_151, k_0_24, k_0_28, k_0_156, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_174, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_177, k_0_50, k_0_51, k_0_52, k_0_180, k_0_53, k_0_54, k_0_182, k_0_55, k_0_57, k_0_185, k_0_58, k_0_59, k_0_60, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_196, k_0_69, k_0_197, k_0_70, k_0_71, k_0_72, k_0_200, k_0_73, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_81, k_0_82, k_0_210, k_0_83, k_0_84, k_0_85, k_0_87, k_0_88, k_0_216, k_0_89, k_0_93, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_102, k_0_103, k_0_104, k_0_232, k_0_105, k_0_109, k_0_112, k_0_240, k_0_113, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_32_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.42 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.17 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_8, k_0_136, k_0_9, k_0_13, k_0_141, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_159, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_162, k_0_35, k_0_36, k_0_37, k_0_165, k_0_38, k_0_39, k_0_167, k_0_40, k_0_42, k_0_170, k_0_43, k_0_44, k_0_45, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_181, k_0_54, k_0_182, k_0_55, k_0_56, k_0_57, k_0_185, k_0_58, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_66, k_0_67, k_0_195, k_0_68, k_0_69, k_0_70, k_0_72, k_0_73, k_0_201, k_0_74, k_0_78, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_87, k_0_88, k_0_89, k_0_217, k_0_90, k_0_94, k_0_97, k_0_225, k_0_98, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_117
+=======================================
+result_sonic_4_0_33_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.24 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.04 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_144, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_147, k_0_20, k_0_21, k_0_22, k_0_150, k_0_23, k_0_24, k_0_152, k_0_25, k_0_27, k_0_155, k_0_28, k_0_29, k_0_30, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_166, k_0_39, k_0_167, k_0_40, k_0_41, k_0_42, k_0_170, k_0_43, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_51, k_0_52, k_0_180, k_0_53, k_0_54, k_0_55, k_0_57, k_0_58, k_0_186, k_0_59, k_0_63, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_72, k_0_73, k_0_74, k_0_202, k_0_75, k_0_79, k_0_82, k_0_210, k_0_83, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_102, k_0_121, k_0_249, k_0_122, k_0_126, k_0_254, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_34_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 86.79 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.21 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_132, k_0_5, k_0_6, k_0_7, k_0_135, k_0_8, k_0_9, k_0_137, k_0_10, k_0_12, k_0_140, k_0_13, k_0_14, k_0_15, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_151, k_0_24, k_0_152, k_0_25, k_0_26, k_0_27, k_0_155, k_0_28, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_36, k_0_37, k_0_165, k_0_38, k_0_39, k_0_40, k_0_42, k_0_43, k_0_171, k_0_44, k_0_48, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_57, k_0_58, k_0_59, k_0_187, k_0_60, k_0_64, k_0_67, k_0_195, k_0_68, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_87, k_0_106, k_0_234, k_0_107, k_0_111, k_0_239, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_35_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.17 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.82 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_136, k_0_9, k_0_137, k_0_10, k_0_11, k_0_12, k_0_140, k_0_13, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_21, k_0_22, k_0_150, k_0_23, k_0_24, k_0_25, k_0_27, k_0_28, k_0_156, k_0_29, k_0_33, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_42, k_0_43, k_0_44, k_0_172, k_0_45, k_0_49, k_0_52, k_0_180, k_0_53, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_72, k_0_91, k_0_219, k_0_92, k_0_96, k_0_224, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_245, k_0_118, k_0_119, k_0_120, k_0_248, k_0_121, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_36_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.39 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.12 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_6, k_0_7, k_0_135, k_0_8, k_0_9, k_0_10, k_0_12, k_0_13, k_0_141, k_0_14, k_0_18, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_27, k_0_28, k_0_29, k_0_157, k_0_30, k_0_34, k_0_37, k_0_165, k_0_38, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_57, k_0_76, k_0_204, k_0_77, k_0_81, k_0_209, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_230, k_0_103, k_0_104, k_0_105, k_0_233, k_0_106, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_113, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_249, k_0_122, k_0_250, k_0_123, k_0_124, k_0_125, k_0_253, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_37_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.00 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.10 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_3, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_12, k_0_13, k_0_14, k_0_142, k_0_15, k_0_19, k_0_22, k_0_150, k_0_23, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_42, k_0_61, k_0_189, k_0_62, k_0_66, k_0_194, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_215, k_0_88, k_0_89, k_0_90, k_0_218, k_0_91, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_98, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_234, k_0_107, k_0_235, k_0_108, k_0_109, k_0_110, k_0_238, k_0_111, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_119, k_0_120, k_0_248, k_0_121, k_0_122, k_0_123, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_38_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.11 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.08 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_4, k_0_7, k_0_135, k_0_8, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_27, k_0_46, k_0_174, k_0_47, k_0_51, k_0_179, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_200, k_0_73, k_0_74, k_0_75, k_0_203, k_0_76, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_83, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_219, k_0_92, k_0_220, k_0_93, k_0_94, k_0_95, k_0_223, k_0_96, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_104, k_0_105, k_0_233, k_0_106, k_0_107, k_0_108, k_0_110, k_0_111, k_0_239, k_0_112, k_0_116, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_125, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_39_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.30 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.82 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_12, k_0_31, k_0_159, k_0_32, k_0_36, k_0_164, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_185, k_0_58, k_0_59, k_0_60, k_0_188, k_0_61, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_68, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_204, k_0_77, k_0_205, k_0_78, k_0_79, k_0_80, k_0_208, k_0_81, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_89, k_0_90, k_0_218, k_0_91, k_0_92, k_0_93, k_0_95, k_0_96, k_0_224, k_0_97, k_0_101, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_110, k_0_111, k_0_112, k_0_240, k_0_113, k_0_117, k_0_120, k_0_248, k_0_121, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_40_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.45 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.87 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_16, k_0_144, k_0_17, k_0_21, k_0_149, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_170, k_0_43, k_0_44, k_0_45, k_0_173, k_0_46, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_53, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_189, k_0_62, k_0_190, k_0_63, k_0_64, k_0_65, k_0_193, k_0_66, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_74, k_0_75, k_0_203, k_0_76, k_0_77, k_0_78, k_0_80, k_0_81, k_0_209, k_0_82, k_0_86, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_95, k_0_96, k_0_97, k_0_225, k_0_98, k_0_102, k_0_105, k_0_233, k_0_106, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_125
+=======================================
+result_sonic_4_0_41_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.37 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.18 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_6, k_0_134, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_155, k_0_28, k_0_29, k_0_30, k_0_158, k_0_31, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_38, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_174, k_0_47, k_0_175, k_0_48, k_0_49, k_0_50, k_0_178, k_0_51, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_59, k_0_60, k_0_188, k_0_61, k_0_62, k_0_63, k_0_65, k_0_66, k_0_194, k_0_67, k_0_71, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_80, k_0_81, k_0_82, k_0_210, k_0_83, k_0_87, k_0_90, k_0_218, k_0_91, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_110
+=======================================
+result_sonic_4_0_42_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.57 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.24 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_140, k_0_13, k_0_14, k_0_15, k_0_143, k_0_16, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_23, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_159, k_0_32, k_0_160, k_0_33, k_0_34, k_0_35, k_0_163, k_0_36, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_44, k_0_45, k_0_173, k_0_46, k_0_47, k_0_48, k_0_50, k_0_51, k_0_179, k_0_52, k_0_56, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_65, k_0_66, k_0_67, k_0_195, k_0_68, k_0_72, k_0_75, k_0_203, k_0_76, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_95, k_0_114, k_0_242, k_0_115, k_0_119, k_0_247, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_43_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.91 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_8, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_144, k_0_17, k_0_145, k_0_18, k_0_19, k_0_20, k_0_148, k_0_21, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_29, k_0_30, k_0_158, k_0_31, k_0_32, k_0_33, k_0_35, k_0_36, k_0_164, k_0_37, k_0_41, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_50, k_0_51, k_0_52, k_0_180, k_0_53, k_0_57, k_0_60, k_0_188, k_0_61, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_80, k_0_99, k_0_227, k_0_100, k_0_104, k_0_232, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_252, k_0_125, k_0_253, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_44_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.48 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.88 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_4, k_0_5, k_0_133, k_0_6, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_14, k_0_15, k_0_143, k_0_16, k_0_17, k_0_18, k_0_20, k_0_21, k_0_149, k_0_22, k_0_26, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_35, k_0_36, k_0_37, k_0_165, k_0_38, k_0_42, k_0_45, k_0_173, k_0_46, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_65, k_0_84, k_0_212, k_0_85, k_0_89, k_0_217, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_112, k_0_113, k_0_241, k_0_114, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_121, k_0_123, k_0_251, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_45_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.30 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.86 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_3, k_0_5, k_0_6, k_0_134, k_0_7, k_0_11, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_20, k_0_21, k_0_22, k_0_150, k_0_23, k_0_27, k_0_30, k_0_158, k_0_31, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_50, k_0_69, k_0_197, k_0_70, k_0_74, k_0_202, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_97, k_0_98, k_0_226, k_0_99, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_106, k_0_108, k_0_236, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_117, k_0_118, k_0_246, k_0_119, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_127
+=======================================
+result_sonic_4_0_46_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.89 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_5, k_0_6, k_0_7, k_0_135, k_0_8, k_0_12, k_0_15, k_0_143, k_0_16, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_35, k_0_54, k_0_182, k_0_55, k_0_59, k_0_187, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_82, k_0_83, k_0_211, k_0_84, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_91, k_0_93, k_0_221, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_102, k_0_103, k_0_231, k_0_104, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_112, k_0_113, k_0_241, k_0_114, k_0_115, k_0_116, k_0_118, k_0_119, k_0_247, k_0_120, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_47_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.53 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.06 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_20, k_0_39, k_0_167, k_0_40, k_0_44, k_0_172, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_67, k_0_68, k_0_196, k_0_69, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_76, k_0_78, k_0_206, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_87, k_0_88, k_0_216, k_0_89, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_97, k_0_98, k_0_226, k_0_99, k_0_100, k_0_101, k_0_103, k_0_104, k_0_232, k_0_105, k_0_109, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_118, k_0_119, k_0_120, k_0_248, k_0_121, k_0_125
+=======================================
+result_sonic_4_0_48_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 86.60 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.09 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_5, k_0_24, k_0_152, k_0_25, k_0_29, k_0_157, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_52, k_0_53, k_0_181, k_0_54, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_61, k_0_63, k_0_191, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_72, k_0_73, k_0_201, k_0_74, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_82, k_0_83, k_0_211, k_0_84, k_0_85, k_0_86, k_0_88, k_0_89, k_0_217, k_0_90, k_0_94, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_103, k_0_104, k_0_105, k_0_233, k_0_106, k_0_110, k_0_113, k_0_241, k_0_114, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_49_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.24 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.08 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_9, k_0_137, k_0_10, k_0_14, k_0_142, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_37, k_0_38, k_0_166, k_0_39, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_46, k_0_48, k_0_176, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_57, k_0_58, k_0_186, k_0_59, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_67, k_0_68, k_0_196, k_0_69, k_0_70, k_0_71, k_0_73, k_0_74, k_0_202, k_0_75, k_0_79, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_88, k_0_89, k_0_90, k_0_218, k_0_91, k_0_95, k_0_98, k_0_226, k_0_99, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_118
+=======================================
+result_sonic_4_0_50_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.05 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.92 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_22, k_0_23, k_0_151, k_0_24, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_31, k_0_33, k_0_161, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_42, k_0_43, k_0_171, k_0_44, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_52, k_0_53, k_0_181, k_0_54, k_0_55, k_0_56, k_0_58, k_0_59, k_0_187, k_0_60, k_0_64, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_73, k_0_74, k_0_75, k_0_203, k_0_76, k_0_80, k_0_83, k_0_211, k_0_84, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_103, k_0_122, k_0_250, k_0_123, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_51_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.37 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.92 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_7, k_0_8, k_0_136, k_0_9, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_16, k_0_18, k_0_146, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_27, k_0_28, k_0_156, k_0_29, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_37, k_0_38, k_0_166, k_0_39, k_0_40, k_0_41, k_0_43, k_0_44, k_0_172, k_0_45, k_0_49, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_58, k_0_59, k_0_60, k_0_188, k_0_61, k_0_65, k_0_68, k_0_196, k_0_69, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_88, k_0_107, k_0_235, k_0_108, k_0_112, k_0_240, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_52_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.28 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_3, k_0_131, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_12, k_0_13, k_0_141, k_0_14, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_22, k_0_23, k_0_151, k_0_24, k_0_25, k_0_26, k_0_28, k_0_29, k_0_157, k_0_30, k_0_34, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_43, k_0_44, k_0_45, k_0_173, k_0_46, k_0_50, k_0_53, k_0_181, k_0_54, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_73, k_0_92, k_0_220, k_0_93, k_0_97, k_0_225, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_120, k_0_121, k_0_249, k_0_122, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_53_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.23 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.11 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_7, k_0_8, k_0_136, k_0_9, k_0_10, k_0_11, k_0_13, k_0_14, k_0_142, k_0_15, k_0_19, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_28, k_0_29, k_0_30, k_0_158, k_0_31, k_0_35, k_0_38, k_0_166, k_0_39, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_58, k_0_77, k_0_205, k_0_78, k_0_82, k_0_210, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_105, k_0_106, k_0_234, k_0_107, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_114, k_0_116, k_0_244, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_54_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.61 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_4, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_13, k_0_14, k_0_15, k_0_143, k_0_16, k_0_20, k_0_23, k_0_151, k_0_24, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_43, k_0_62, k_0_190, k_0_63, k_0_67, k_0_195, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_90, k_0_91, k_0_219, k_0_92, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_99, k_0_101, k_0_229, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_110, k_0_111, k_0_239, k_0_112, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_120, k_0_121, k_0_249, k_0_122, k_0_123, k_0_124, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_55_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.77 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_5, k_0_8, k_0_136, k_0_9, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_28, k_0_47, k_0_175, k_0_48, k_0_52, k_0_180, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_75, k_0_76, k_0_204, k_0_77, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_84, k_0_86, k_0_214, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_95, k_0_96, k_0_224, k_0_97, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_105, k_0_106, k_0_234, k_0_107, k_0_108, k_0_109, k_0_111, k_0_112, k_0_240, k_0_113, k_0_117, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_56_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.10 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.22 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_13, k_0_32, k_0_160, k_0_33, k_0_37, k_0_165, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_60, k_0_61, k_0_189, k_0_62, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_69, k_0_71, k_0_199, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_80, k_0_81, k_0_209, k_0_82, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_90, k_0_91, k_0_219, k_0_92, k_0_93, k_0_94, k_0_96, k_0_97, k_0_225, k_0_98, k_0_102, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_111, k_0_112, k_0_113, k_0_241, k_0_114, k_0_118, k_0_121, k_0_249, k_0_122, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_57_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.60 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.28 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1009 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_17, k_0_145, k_0_18, k_0_22, k_0_150, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_45, k_0_46, k_0_174, k_0_47, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_54, k_0_56, k_0_184, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_65, k_0_66, k_0_194, k_0_67, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_75, k_0_76, k_0_204, k_0_77, k_0_78, k_0_79, k_0_81, k_0_82, k_0_210, k_0_83, k_0_87, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_96, k_0_97, k_0_98, k_0_226, k_0_99, k_0_103, k_0_106, k_0_234, k_0_107, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_126
+=======================================
+result_sonic_4_0_58_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.90 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.17 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_7, k_0_135, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_30, k_0_31, k_0_159, k_0_32, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_39, k_0_41, k_0_169, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_50, k_0_51, k_0_179, k_0_52, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_60, k_0_61, k_0_189, k_0_62, k_0_63, k_0_64, k_0_66, k_0_67, k_0_195, k_0_68, k_0_72, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_81, k_0_82, k_0_83, k_0_211, k_0_84, k_0_88, k_0_91, k_0_219, k_0_92, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_111
+=======================================
+result_sonic_4_0_59_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.23 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.92 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_15, k_0_16, k_0_144, k_0_17, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_24, k_0_26, k_0_154, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_35, k_0_36, k_0_164, k_0_37, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_45, k_0_46, k_0_174, k_0_47, k_0_48, k_0_49, k_0_51, k_0_52, k_0_180, k_0_53, k_0_57, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_66, k_0_67, k_0_68, k_0_196, k_0_69, k_0_73, k_0_76, k_0_204, k_0_77, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_96, k_0_115, k_0_243, k_0_116, k_0_120, k_0_248, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_60_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.18 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.09 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_9, k_0_11, k_0_139, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_20, k_0_21, k_0_149, k_0_22, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_30, k_0_31, k_0_159, k_0_32, k_0_33, k_0_34, k_0_36, k_0_37, k_0_165, k_0_38, k_0_42, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_51, k_0_52, k_0_53, k_0_181, k_0_54, k_0_58, k_0_61, k_0_189, k_0_62, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_81, k_0_100, k_0_228, k_0_101, k_0_105, k_0_233, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_251, k_0_124, k_0_252, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_61_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.35 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_5, k_0_6, k_0_134, k_0_7, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_15, k_0_16, k_0_144, k_0_17, k_0_18, k_0_19, k_0_21, k_0_22, k_0_150, k_0_23, k_0_27, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_36, k_0_37, k_0_38, k_0_166, k_0_39, k_0_43, k_0_46, k_0_174, k_0_47, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_66, k_0_85, k_0_213, k_0_86, k_0_90, k_0_218, k_0_91, k_0_219, k_0_92, k_0_94, k_0_222, k_0_95, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_236, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_113, k_0_114, k_0_242, k_0_115, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_122, k_0_124, k_0_252, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_62_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.33 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_4, k_0_6, k_0_7, k_0_135, k_0_8, k_0_12, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_21, k_0_22, k_0_23, k_0_151, k_0_24, k_0_28, k_0_31, k_0_159, k_0_32, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_51, k_0_70, k_0_198, k_0_71, k_0_75, k_0_203, k_0_76, k_0_204, k_0_77, k_0_79, k_0_207, k_0_80, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_221, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_98, k_0_99, k_0_227, k_0_100, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_107, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_118, k_0_119, k_0_247, k_0_120, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_63_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.10 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.86 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_6, k_0_7, k_0_8, k_0_136, k_0_9, k_0_13, k_0_16, k_0_144, k_0_17, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_36, k_0_55, k_0_183, k_0_56, k_0_60, k_0_188, k_0_61, k_0_189, k_0_62, k_0_64, k_0_192, k_0_65, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_206, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_83, k_0_84, k_0_212, k_0_85, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_92, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_103, k_0_104, k_0_232, k_0_105, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_113, k_0_114, k_0_242, k_0_115, k_0_116, k_0_117, k_0_119, k_0_120, k_0_248, k_0_121, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_64_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.06 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_21, k_0_40, k_0_168, k_0_41, k_0_45, k_0_173, k_0_46, k_0_174, k_0_47, k_0_49, k_0_177, k_0_50, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_191, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_68, k_0_69, k_0_197, k_0_70, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_77, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_88, k_0_89, k_0_217, k_0_90, k_0_91, k_0_219, k_0_92, k_0_94, k_0_222, k_0_95, k_0_96, k_0_98, k_0_99, k_0_227, k_0_100, k_0_101, k_0_102, k_0_104, k_0_105, k_0_233, k_0_106, k_0_110, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_119, k_0_120, k_0_121, k_0_249, k_0_122, k_0_126
+=======================================
+result_sonic_4_0_65_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.15 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_6, k_0_25, k_0_153, k_0_26, k_0_30, k_0_158, k_0_31, k_0_159, k_0_32, k_0_34, k_0_162, k_0_35, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_176, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_53, k_0_54, k_0_182, k_0_55, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_62, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_73, k_0_74, k_0_202, k_0_75, k_0_76, k_0_204, k_0_77, k_0_79, k_0_207, k_0_80, k_0_81, k_0_83, k_0_84, k_0_212, k_0_85, k_0_86, k_0_87, k_0_89, k_0_90, k_0_218, k_0_91, k_0_95, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_104, k_0_105, k_0_106, k_0_234, k_0_107, k_0_111, k_0_114, k_0_242, k_0_115, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_66_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.92 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_10, k_0_138, k_0_11, k_0_15, k_0_143, k_0_16, k_0_144, k_0_17, k_0_19, k_0_147, k_0_20, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_161, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_164, k_0_37, k_0_38, k_0_39, k_0_167, k_0_40, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_47, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_58, k_0_59, k_0_187, k_0_60, k_0_61, k_0_189, k_0_62, k_0_64, k_0_192, k_0_65, k_0_66, k_0_68, k_0_69, k_0_197, k_0_70, k_0_71, k_0_72, k_0_74, k_0_75, k_0_203, k_0_76, k_0_80, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_89, k_0_90, k_0_91, k_0_219, k_0_92, k_0_96, k_0_99, k_0_227, k_0_100, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_119
+=======================================
+result_sonic_4_0_67_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.63 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.18 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_129, k_0_2, k_0_4, k_0_132, k_0_5, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_146, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_149, k_0_22, k_0_23, k_0_24, k_0_152, k_0_25, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_32, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_43, k_0_44, k_0_172, k_0_45, k_0_46, k_0_174, k_0_47, k_0_49, k_0_177, k_0_50, k_0_51, k_0_53, k_0_54, k_0_182, k_0_55, k_0_56, k_0_57, k_0_59, k_0_60, k_0_188, k_0_61, k_0_65, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_74, k_0_75, k_0_76, k_0_204, k_0_77, k_0_81, k_0_84, k_0_212, k_0_85, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_104, k_0_123, k_0_251, k_0_124
+=======================================
+result_sonic_4_0_68_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.19 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.18 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_131, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_134, k_0_7, k_0_8, k_0_9, k_0_137, k_0_10, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_17, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_28, k_0_29, k_0_157, k_0_30, k_0_31, k_0_159, k_0_32, k_0_34, k_0_162, k_0_35, k_0_36, k_0_38, k_0_39, k_0_167, k_0_40, k_0_41, k_0_42, k_0_44, k_0_45, k_0_173, k_0_46, k_0_50, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_59, k_0_60, k_0_61, k_0_189, k_0_62, k_0_66, k_0_69, k_0_197, k_0_70, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_89, k_0_108, k_0_236, k_0_109, k_0_113, k_0_241, k_0_114, k_0_242, k_0_115, k_0_117, k_0_245, k_0_118, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_69_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.93 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_13, k_0_14, k_0_142, k_0_15, k_0_16, k_0_144, k_0_17, k_0_19, k_0_147, k_0_20, k_0_21, k_0_23, k_0_24, k_0_152, k_0_25, k_0_26, k_0_27, k_0_29, k_0_30, k_0_158, k_0_31, k_0_35, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_44, k_0_45, k_0_46, k_0_174, k_0_47, k_0_51, k_0_54, k_0_182, k_0_55, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_74, k_0_93, k_0_221, k_0_94, k_0_98, k_0_226, k_0_99, k_0_227, k_0_100, k_0_102, k_0_230, k_0_103, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_244, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_247, k_0_120, k_0_121, k_0_122, k_0_250, k_0_123, k_0_124, k_0_252, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_70_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.28 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_4, k_0_132, k_0_5, k_0_6, k_0_8, k_0_9, k_0_137, k_0_10, k_0_11, k_0_12, k_0_14, k_0_15, k_0_143, k_0_16, k_0_20, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_29, k_0_30, k_0_31, k_0_159, k_0_32, k_0_36, k_0_39, k_0_167, k_0_40, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_59, k_0_78, k_0_206, k_0_79, k_0_83, k_0_211, k_0_84, k_0_212, k_0_85, k_0_87, k_0_215, k_0_88, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_229, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_232, k_0_105, k_0_106, k_0_107, k_0_235, k_0_108, k_0_109, k_0_237, k_0_110, k_0_112, k_0_240, k_0_113, k_0_114, k_0_115, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_251, k_0_124, k_0_252, k_0_125, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_71_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.33 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.85 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_5, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_14, k_0_15, k_0_16, k_0_144, k_0_17, k_0_21, k_0_24, k_0_152, k_0_25, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_44, k_0_63, k_0_191, k_0_64, k_0_68, k_0_196, k_0_69, k_0_197, k_0_70, k_0_72, k_0_200, k_0_73, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_214, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_217, k_0_90, k_0_91, k_0_92, k_0_220, k_0_93, k_0_94, k_0_222, k_0_95, k_0_97, k_0_225, k_0_98, k_0_99, k_0_100, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_236, k_0_109, k_0_237, k_0_110, k_0_111, k_0_112, k_0_240, k_0_113, k_0_114, k_0_242, k_0_115, k_0_117, k_0_245, k_0_118, k_0_119, k_0_121, k_0_122, k_0_250, k_0_123, k_0_124, k_0_125, k_0_127
+=======================================
+result_sonic_4_0_72_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.96 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.27 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_6, k_0_9, k_0_137, k_0_10, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_29, k_0_48, k_0_176, k_0_49, k_0_53, k_0_181, k_0_54, k_0_182, k_0_55, k_0_57, k_0_185, k_0_58, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_199, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_202, k_0_75, k_0_76, k_0_77, k_0_205, k_0_78, k_0_79, k_0_207, k_0_80, k_0_82, k_0_210, k_0_83, k_0_84, k_0_85, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_221, k_0_94, k_0_222, k_0_95, k_0_96, k_0_97, k_0_225, k_0_98, k_0_99, k_0_227, k_0_100, k_0_102, k_0_230, k_0_103, k_0_104, k_0_106, k_0_107, k_0_235, k_0_108, k_0_109, k_0_110, k_0_112, k_0_113, k_0_241, k_0_114, k_0_118, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_127
+=======================================
+result_sonic_4_0_73_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.23 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.85 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_14, k_0_33, k_0_161, k_0_34, k_0_38, k_0_166, k_0_39, k_0_167, k_0_40, k_0_42, k_0_170, k_0_43, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_184, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_187, k_0_60, k_0_61, k_0_62, k_0_190, k_0_63, k_0_64, k_0_192, k_0_65, k_0_67, k_0_195, k_0_68, k_0_69, k_0_70, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_206, k_0_79, k_0_207, k_0_80, k_0_81, k_0_82, k_0_210, k_0_83, k_0_84, k_0_212, k_0_85, k_0_87, k_0_215, k_0_88, k_0_89, k_0_91, k_0_92, k_0_220, k_0_93, k_0_94, k_0_95, k_0_97, k_0_98, k_0_226, k_0_99, k_0_103, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_112, k_0_113, k_0_114, k_0_242, k_0_115, k_0_119, k_0_122, k_0_250, k_0_123, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_74_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.62 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.06 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_18, k_0_146, k_0_19, k_0_23, k_0_151, k_0_24, k_0_152, k_0_25, k_0_27, k_0_155, k_0_28, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_169, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_172, k_0_45, k_0_46, k_0_47, k_0_175, k_0_48, k_0_49, k_0_177, k_0_50, k_0_52, k_0_180, k_0_53, k_0_54, k_0_55, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_191, k_0_64, k_0_192, k_0_65, k_0_66, k_0_67, k_0_195, k_0_68, k_0_69, k_0_197, k_0_70, k_0_72, k_0_200, k_0_73, k_0_74, k_0_76, k_0_77, k_0_205, k_0_78, k_0_79, k_0_80, k_0_82, k_0_83, k_0_211, k_0_84, k_0_88, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_97, k_0_98, k_0_99, k_0_227, k_0_100, k_0_104, k_0_107, k_0_235, k_0_108, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_127
+=======================================
+result_sonic_4_0_75_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.21 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.14 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_3, k_0_131, k_0_4, k_0_8, k_0_136, k_0_9, k_0_137, k_0_10, k_0_12, k_0_140, k_0_13, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_154, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_157, k_0_30, k_0_31, k_0_32, k_0_160, k_0_33, k_0_34, k_0_162, k_0_35, k_0_37, k_0_165, k_0_38, k_0_39, k_0_40, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_176, k_0_49, k_0_177, k_0_50, k_0_51, k_0_52, k_0_180, k_0_53, k_0_54, k_0_182, k_0_55, k_0_57, k_0_185, k_0_58, k_0_59, k_0_61, k_0_62, k_0_190, k_0_63, k_0_64, k_0_65, k_0_67, k_0_68, k_0_196, k_0_69, k_0_73, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_82, k_0_83, k_0_84, k_0_212, k_0_85, k_0_89, k_0_92, k_0_220, k_0_93, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_112
+=======================================
+result_sonic_4_0_76_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.66 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.99 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_139, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_142, k_0_15, k_0_16, k_0_17, k_0_145, k_0_18, k_0_19, k_0_147, k_0_20, k_0_22, k_0_150, k_0_23, k_0_24, k_0_25, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_161, k_0_34, k_0_162, k_0_35, k_0_36, k_0_37, k_0_165, k_0_38, k_0_39, k_0_167, k_0_40, k_0_42, k_0_170, k_0_43, k_0_44, k_0_46, k_0_47, k_0_175, k_0_48, k_0_49, k_0_50, k_0_52, k_0_53, k_0_181, k_0_54, k_0_58, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_67, k_0_68, k_0_69, k_0_197, k_0_70, k_0_74, k_0_77, k_0_205, k_0_78, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_97, k_0_116, k_0_244, k_0_117, k_0_121, k_0_249, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_77_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.81 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.03 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_130, k_0_3, k_0_4, k_0_132, k_0_5, k_0_7, k_0_135, k_0_8, k_0_9, k_0_10, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_146, k_0_19, k_0_147, k_0_20, k_0_21, k_0_22, k_0_150, k_0_23, k_0_24, k_0_152, k_0_25, k_0_27, k_0_155, k_0_28, k_0_29, k_0_31, k_0_32, k_0_160, k_0_33, k_0_34, k_0_35, k_0_37, k_0_38, k_0_166, k_0_39, k_0_43, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_52, k_0_53, k_0_54, k_0_182, k_0_55, k_0_59, k_0_62, k_0_190, k_0_63, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_82, k_0_101, k_0_229, k_0_102, k_0_106, k_0_234, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_252, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_78_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.12 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1014 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_131, k_0_4, k_0_132, k_0_5, k_0_6, k_0_7, k_0_135, k_0_8, k_0_9, k_0_137, k_0_10, k_0_12, k_0_140, k_0_13, k_0_14, k_0_16, k_0_17, k_0_145, k_0_18, k_0_19, k_0_20, k_0_22, k_0_23, k_0_151, k_0_24, k_0_28, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_37, k_0_38, k_0_39, k_0_167, k_0_40, k_0_44, k_0_47, k_0_175, k_0_48, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_67, k_0_86, k_0_214, k_0_87, k_0_91, k_0_219, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_240, k_0_113, k_0_114, k_0_115, k_0_243, k_0_116, k_0_117, k_0_245, k_0_118, k_0_120, k_0_248, k_0_121, k_0_122, k_0_123, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_79_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.70 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_130, k_0_3, k_0_4, k_0_5, k_0_7, k_0_8, k_0_136, k_0_9, k_0_13, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_22, k_0_23, k_0_24, k_0_152, k_0_25, k_0_29, k_0_32, k_0_160, k_0_33, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_52, k_0_71, k_0_199, k_0_72, k_0_76, k_0_204, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_225, k_0_98, k_0_99, k_0_100, k_0_228, k_0_101, k_0_102, k_0_230, k_0_103, k_0_105, k_0_233, k_0_106, k_0_107, k_0_108, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_244, k_0_117, k_0_245, k_0_118, k_0_119, k_0_120, k_0_248, k_0_121, k_0_122, k_0_250, k_0_123, k_0_125, k_0_253, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_80_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.01 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_7, k_0_8, k_0_9, k_0_137, k_0_10, k_0_14, k_0_17, k_0_145, k_0_18, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_37, k_0_56, k_0_184, k_0_57, k_0_61, k_0_189, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_210, k_0_83, k_0_84, k_0_85, k_0_213, k_0_86, k_0_87, k_0_215, k_0_88, k_0_90, k_0_218, k_0_91, k_0_92, k_0_93, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_229, k_0_102, k_0_230, k_0_103, k_0_104, k_0_105, k_0_233, k_0_106, k_0_107, k_0_235, k_0_108, k_0_110, k_0_238, k_0_111, k_0_112, k_0_114, k_0_115, k_0_243, k_0_116, k_0_117, k_0_118, k_0_120, k_0_121, k_0_249, k_0_122, k_0_126, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_81_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.83 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.03 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_22, k_0_41, k_0_169, k_0_42, k_0_46, k_0_174, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_195, k_0_68, k_0_69, k_0_70, k_0_198, k_0_71, k_0_72, k_0_200, k_0_73, k_0_75, k_0_203, k_0_76, k_0_77, k_0_78, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_214, k_0_87, k_0_215, k_0_88, k_0_89, k_0_90, k_0_218, k_0_91, k_0_92, k_0_220, k_0_93, k_0_95, k_0_223, k_0_96, k_0_97, k_0_99, k_0_100, k_0_228, k_0_101, k_0_102, k_0_103, k_0_105, k_0_106, k_0_234, k_0_107, k_0_111, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_120, k_0_121, k_0_122, k_0_250, k_0_123, k_0_127
+=======================================
+result_sonic_4_0_82_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.60 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_7, k_0_26, k_0_154, k_0_27, k_0_31, k_0_159, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_180, k_0_53, k_0_54, k_0_55, k_0_183, k_0_56, k_0_57, k_0_185, k_0_58, k_0_60, k_0_188, k_0_61, k_0_62, k_0_63, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_199, k_0_72, k_0_200, k_0_73, k_0_74, k_0_75, k_0_203, k_0_76, k_0_77, k_0_205, k_0_78, k_0_80, k_0_208, k_0_81, k_0_82, k_0_84, k_0_85, k_0_213, k_0_86, k_0_87, k_0_88, k_0_90, k_0_91, k_0_219, k_0_92, k_0_96, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_105, k_0_106, k_0_107, k_0_235, k_0_108, k_0_112, k_0_115, k_0_243, k_0_116, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_83_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.40 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.91 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_11, k_0_139, k_0_12, k_0_16, k_0_144, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_164, k_0_37, k_0_165, k_0_38, k_0_39, k_0_40, k_0_168, k_0_41, k_0_42, k_0_170, k_0_43, k_0_45, k_0_173, k_0_46, k_0_47, k_0_48, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_184, k_0_57, k_0_185, k_0_58, k_0_59, k_0_60, k_0_188, k_0_61, k_0_62, k_0_190, k_0_63, k_0_65, k_0_193, k_0_66, k_0_67, k_0_69, k_0_70, k_0_198, k_0_71, k_0_72, k_0_73, k_0_75, k_0_76, k_0_204, k_0_77, k_0_81, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_90, k_0_91, k_0_92, k_0_220, k_0_93, k_0_97, k_0_100, k_0_228, k_0_101, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_120
+=======================================
+result_sonic_4_0_84_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.92 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_149, k_0_22, k_0_150, k_0_23, k_0_24, k_0_25, k_0_153, k_0_26, k_0_27, k_0_155, k_0_28, k_0_30, k_0_158, k_0_31, k_0_32, k_0_33, k_0_35, k_0_163, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_169, k_0_42, k_0_170, k_0_43, k_0_44, k_0_45, k_0_173, k_0_46, k_0_47, k_0_175, k_0_48, k_0_50, k_0_178, k_0_51, k_0_52, k_0_54, k_0_55, k_0_183, k_0_56, k_0_57, k_0_58, k_0_60, k_0_61, k_0_189, k_0_62, k_0_66, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_75, k_0_76, k_0_77, k_0_205, k_0_78, k_0_82, k_0_85, k_0_213, k_0_86, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_105, k_0_124, k_0_252, k_0_125
+=======================================
+result_sonic_4_0_85_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.26 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.10 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_134, k_0_7, k_0_135, k_0_8, k_0_9, k_0_10, k_0_138, k_0_11, k_0_12, k_0_140, k_0_13, k_0_15, k_0_143, k_0_16, k_0_17, k_0_18, k_0_20, k_0_148, k_0_21, k_0_149, k_0_22, k_0_24, k_0_152, k_0_25, k_0_26, k_0_154, k_0_27, k_0_155, k_0_28, k_0_29, k_0_30, k_0_158, k_0_31, k_0_32, k_0_160, k_0_33, k_0_35, k_0_163, k_0_36, k_0_37, k_0_39, k_0_40, k_0_168, k_0_41, k_0_42, k_0_43, k_0_45, k_0_46, k_0_174, k_0_47, k_0_51, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_60, k_0_61, k_0_62, k_0_190, k_0_63, k_0_67, k_0_70, k_0_198, k_0_71, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_90, k_0_109, k_0_237, k_0_110, k_0_114, k_0_242, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_86_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.13 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.96 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_3, k_0_5, k_0_133, k_0_6, k_0_134, k_0_7, k_0_9, k_0_137, k_0_10, k_0_11, k_0_139, k_0_12, k_0_140, k_0_13, k_0_14, k_0_15, k_0_143, k_0_16, k_0_17, k_0_145, k_0_18, k_0_20, k_0_148, k_0_21, k_0_22, k_0_24, k_0_25, k_0_153, k_0_26, k_0_27, k_0_28, k_0_30, k_0_31, k_0_159, k_0_32, k_0_36, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_45, k_0_46, k_0_47, k_0_175, k_0_48, k_0_52, k_0_55, k_0_183, k_0_56, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_75, k_0_94, k_0_222, k_0_95, k_0_99, k_0_227, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_247, k_0_120, k_0_248, k_0_121, k_0_122, k_0_123, k_0_251, k_0_124, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_87_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.45 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.14 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_130, k_0_3, k_0_5, k_0_133, k_0_6, k_0_7, k_0_9, k_0_10, k_0_138, k_0_11, k_0_12, k_0_13, k_0_15, k_0_16, k_0_144, k_0_17, k_0_21, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_30, k_0_31, k_0_32, k_0_160, k_0_33, k_0_37, k_0_40, k_0_168, k_0_41, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_60, k_0_79, k_0_207, k_0_80, k_0_84, k_0_212, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_232, k_0_105, k_0_233, k_0_106, k_0_107, k_0_108, k_0_236, k_0_109, k_0_110, k_0_238, k_0_111, k_0_113, k_0_241, k_0_114, k_0_115, k_0_116, k_0_118, k_0_246, k_0_119, k_0_247, k_0_120, k_0_122, k_0_250, k_0_123, k_0_124, k_0_252, k_0_125, k_0_253, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_88_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.50 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.34 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_6, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_15, k_0_16, k_0_17, k_0_145, k_0_18, k_0_22, k_0_25, k_0_153, k_0_26, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_45, k_0_64, k_0_192, k_0_65, k_0_69, k_0_197, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_217, k_0_90, k_0_218, k_0_91, k_0_92, k_0_93, k_0_221, k_0_94, k_0_95, k_0_223, k_0_96, k_0_98, k_0_226, k_0_99, k_0_100, k_0_101, k_0_103, k_0_231, k_0_104, k_0_232, k_0_105, k_0_107, k_0_235, k_0_108, k_0_109, k_0_237, k_0_110, k_0_238, k_0_111, k_0_112, k_0_113, k_0_241, k_0_114, k_0_115, k_0_243, k_0_116, k_0_118, k_0_246, k_0_119, k_0_120, k_0_122, k_0_123, k_0_251, k_0_124, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_89_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.24 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.96 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_130, k_0_3, k_0_7, k_0_10, k_0_138, k_0_11, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_30, k_0_49, k_0_177, k_0_50, k_0_54, k_0_182, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_202, k_0_75, k_0_203, k_0_76, k_0_77, k_0_78, k_0_206, k_0_79, k_0_80, k_0_208, k_0_81, k_0_83, k_0_211, k_0_84, k_0_85, k_0_86, k_0_88, k_0_216, k_0_89, k_0_217, k_0_90, k_0_92, k_0_220, k_0_93, k_0_94, k_0_222, k_0_95, k_0_223, k_0_96, k_0_97, k_0_98, k_0_226, k_0_99, k_0_100, k_0_228, k_0_101, k_0_103, k_0_231, k_0_104, k_0_105, k_0_107, k_0_108, k_0_236, k_0_109, k_0_110, k_0_111, k_0_113, k_0_114, k_0_242, k_0_115, k_0_119, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125
+=======================================
+result_sonic_4_0_90_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.42 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.10 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_15, k_0_34, k_0_162, k_0_35, k_0_39, k_0_167, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_187, k_0_60, k_0_188, k_0_61, k_0_62, k_0_63, k_0_191, k_0_64, k_0_65, k_0_193, k_0_66, k_0_68, k_0_196, k_0_69, k_0_70, k_0_71, k_0_73, k_0_201, k_0_74, k_0_202, k_0_75, k_0_77, k_0_205, k_0_78, k_0_79, k_0_207, k_0_80, k_0_208, k_0_81, k_0_82, k_0_83, k_0_211, k_0_84, k_0_85, k_0_213, k_0_86, k_0_88, k_0_216, k_0_89, k_0_90, k_0_92, k_0_93, k_0_221, k_0_94, k_0_95, k_0_96, k_0_98, k_0_99, k_0_227, k_0_100, k_0_104, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_113, k_0_114, k_0_115, k_0_243, k_0_116, k_0_120, k_0_123, k_0_251, k_0_124, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_91_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.45 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_19, k_0_147, k_0_20, k_0_24, k_0_152, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_172, k_0_45, k_0_173, k_0_46, k_0_47, k_0_48, k_0_176, k_0_49, k_0_50, k_0_178, k_0_51, k_0_53, k_0_181, k_0_54, k_0_55, k_0_56, k_0_58, k_0_186, k_0_59, k_0_187, k_0_60, k_0_62, k_0_190, k_0_63, k_0_64, k_0_192, k_0_65, k_0_193, k_0_66, k_0_67, k_0_68, k_0_196, k_0_69, k_0_70, k_0_198, k_0_71, k_0_73, k_0_201, k_0_74, k_0_75, k_0_77, k_0_78, k_0_206, k_0_79, k_0_80, k_0_81, k_0_83, k_0_84, k_0_212, k_0_85, k_0_89, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_98, k_0_99, k_0_100, k_0_228, k_0_101, k_0_105, k_0_108, k_0_236, k_0_109, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125
+=======================================
+result_sonic_4_0_92_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.94 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.04 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_4, k_0_132, k_0_5, k_0_9, k_0_137, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_157, k_0_30, k_0_158, k_0_31, k_0_32, k_0_33, k_0_161, k_0_34, k_0_35, k_0_163, k_0_36, k_0_38, k_0_166, k_0_39, k_0_40, k_0_41, k_0_43, k_0_171, k_0_44, k_0_172, k_0_45, k_0_47, k_0_175, k_0_48, k_0_49, k_0_177, k_0_50, k_0_178, k_0_51, k_0_52, k_0_53, k_0_181, k_0_54, k_0_55, k_0_183, k_0_56, k_0_58, k_0_186, k_0_59, k_0_60, k_0_62, k_0_63, k_0_191, k_0_64, k_0_65, k_0_66, k_0_68, k_0_69, k_0_197, k_0_70, k_0_74, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_83, k_0_84, k_0_85, k_0_213, k_0_86, k_0_90, k_0_93, k_0_221, k_0_94, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_113
+=======================================
+result_sonic_4_0_93_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.67 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_142, k_0_15, k_0_143, k_0_16, k_0_17, k_0_18, k_0_146, k_0_19, k_0_20, k_0_148, k_0_21, k_0_23, k_0_151, k_0_24, k_0_25, k_0_26, k_0_28, k_0_156, k_0_29, k_0_157, k_0_30, k_0_32, k_0_160, k_0_33, k_0_34, k_0_162, k_0_35, k_0_163, k_0_36, k_0_37, k_0_38, k_0_166, k_0_39, k_0_40, k_0_168, k_0_41, k_0_43, k_0_171, k_0_44, k_0_45, k_0_47, k_0_48, k_0_176, k_0_49, k_0_50, k_0_51, k_0_53, k_0_54, k_0_182, k_0_55, k_0_59, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_68, k_0_69, k_0_70, k_0_198, k_0_71, k_0_75, k_0_78, k_0_206, k_0_79, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_98, k_0_117, k_0_245, k_0_118, k_0_122, k_0_250, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_94_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.76 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.12 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_2, k_0_3, k_0_131, k_0_4, k_0_5, k_0_133, k_0_6, k_0_8, k_0_136, k_0_9, k_0_10, k_0_11, k_0_13, k_0_141, k_0_14, k_0_142, k_0_15, k_0_17, k_0_145, k_0_18, k_0_19, k_0_147, k_0_20, k_0_148, k_0_21, k_0_22, k_0_23, k_0_151, k_0_24, k_0_25, k_0_153, k_0_26, k_0_28, k_0_156, k_0_29, k_0_30, k_0_32, k_0_33, k_0_161, k_0_34, k_0_35, k_0_36, k_0_38, k_0_39, k_0_167, k_0_40, k_0_44, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_53, k_0_54, k_0_55, k_0_183, k_0_56, k_0_60, k_0_63, k_0_191, k_0_64, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_83, k_0_102, k_0_230, k_0_103, k_0_107, k_0_235, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_95_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.28 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.40 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_4, k_0_132, k_0_5, k_0_133, k_0_6, k_0_7, k_0_8, k_0_136, k_0_9, k_0_10, k_0_138, k_0_11, k_0_13, k_0_141, k_0_14, k_0_15, k_0_17, k_0_18, k_0_146, k_0_19, k_0_20, k_0_21, k_0_23, k_0_24, k_0_152, k_0_25, k_0_29, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_38, k_0_39, k_0_40, k_0_168, k_0_41, k_0_45, k_0_48, k_0_176, k_0_49, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_68, k_0_87, k_0_215, k_0_88, k_0_92, k_0_220, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_240, k_0_113, k_0_241, k_0_114, k_0_115, k_0_116, k_0_244, k_0_117, k_0_118, k_0_246, k_0_119, k_0_121, k_0_249, k_0_122, k_0_123, k_0_124, k_0_126, k_0_254, k_0_127, k_0_255
+=======================================
+result_sonic_4_0_96_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.30 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_2, k_0_3, k_0_131, k_0_4, k_0_5, k_0_6, k_0_8, k_0_9, k_0_137, k_0_10, k_0_14, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_23, k_0_24, k_0_25, k_0_153, k_0_26, k_0_30, k_0_33, k_0_161, k_0_34, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_53, k_0_72, k_0_200, k_0_73, k_0_77, k_0_205, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_225, k_0_98, k_0_226, k_0_99, k_0_100, k_0_101, k_0_229, k_0_102, k_0_103, k_0_231, k_0_104, k_0_106, k_0_234, k_0_107, k_0_108, k_0_109, k_0_111, k_0_239, k_0_112, k_0_240, k_0_113, k_0_115, k_0_243, k_0_116, k_0_117, k_0_245, k_0_118, k_0_246, k_0_119, k_0_120, k_0_121, k_0_249, k_0_122, k_0_123, k_0_251, k_0_124, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_97_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 87.47 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_8, k_0_9, k_0_10, k_0_138, k_0_11, k_0_15, k_0_18, k_0_146, k_0_19, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_38, k_0_57, k_0_185, k_0_58, k_0_62, k_0_190, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_210, k_0_83, k_0_211, k_0_84, k_0_85, k_0_86, k_0_214, k_0_87, k_0_88, k_0_216, k_0_89, k_0_91, k_0_219, k_0_92, k_0_93, k_0_94, k_0_96, k_0_224, k_0_97, k_0_225, k_0_98, k_0_100, k_0_228, k_0_101, k_0_102, k_0_230, k_0_103, k_0_231, k_0_104, k_0_105, k_0_106, k_0_234, k_0_107, k_0_108, k_0_236, k_0_109, k_0_111, k_0_239, k_0_112, k_0_113, k_0_115, k_0_116, k_0_244, k_0_117, k_0_118, k_0_119, k_0_121, k_0_122, k_0_250, k_0_123, k_0_127
+=======================================
+result_sonic_4_0_98_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.61 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.90 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_3, k_0_131, k_0_4, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_23, k_0_42, k_0_170, k_0_43, k_0_47, k_0_175, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_195, k_0_68, k_0_196, k_0_69, k_0_70, k_0_71, k_0_199, k_0_72, k_0_73, k_0_201, k_0_74, k_0_76, k_0_204, k_0_77, k_0_78, k_0_79, k_0_81, k_0_209, k_0_82, k_0_210, k_0_83, k_0_85, k_0_213, k_0_86, k_0_87, k_0_215, k_0_88, k_0_216, k_0_89, k_0_90, k_0_91, k_0_219, k_0_92, k_0_93, k_0_221, k_0_94, k_0_96, k_0_224, k_0_97, k_0_98, k_0_100, k_0_101, k_0_229, k_0_102, k_0_103, k_0_104, k_0_106, k_0_107, k_0_235, k_0_108, k_0_112, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_121, k_0_122, k_0_123, k_0_251, k_0_124
+=======================================
+result_sonic_4_0_99_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.33 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.23 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_8, k_0_27, k_0_155, k_0_28, k_0_32, k_0_160, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_180, k_0_53, k_0_181, k_0_54, k_0_55, k_0_56, k_0_184, k_0_57, k_0_58, k_0_186, k_0_59, k_0_61, k_0_189, k_0_62, k_0_63, k_0_64, k_0_66, k_0_194, k_0_67, k_0_195, k_0_68, k_0_70, k_0_198, k_0_71, k_0_72, k_0_200, k_0_73, k_0_201, k_0_74, k_0_75, k_0_76, k_0_204, k_0_77, k_0_78, k_0_206, k_0_79, k_0_81, k_0_209, k_0_82, k_0_83, k_0_85, k_0_86, k_0_214, k_0_87, k_0_88, k_0_89, k_0_91, k_0_92, k_0_220, k_0_93, k_0_97, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_106, k_0_107, k_0_108, k_0_236, k_0_109, k_0_113, k_0_116, k_0_244, k_0_117, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125
+=======================================
+result_sonic_4_0_100_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.61 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.13 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1009 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_12, k_0_140, k_0_13, k_0_17, k_0_145, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_163, k_0_36, k_0_164, k_0_37, k_0_165, k_0_38, k_0_166, k_0_39, k_0_40, k_0_41, k_0_169, k_0_42, k_0_43, k_0_171, k_0_44, k_0_46, k_0_174, k_0_47, k_0_48, k_0_49, k_0_51, k_0_179, k_0_52, k_0_180, k_0_53, k_0_55, k_0_183, k_0_56, k_0_57, k_0_185, k_0_58, k_0_186, k_0_59, k_0_60, k_0_61, k_0_189, k_0_62, k_0_63, k_0_191, k_0_64, k_0_66, k_0_194, k_0_67, k_0_68, k_0_70, k_0_71, k_0_199, k_0_72, k_0_73, k_0_74, k_0_76, k_0_77, k_0_205, k_0_78, k_0_82, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_91, k_0_92, k_0_93, k_0_221, k_0_94, k_0_98, k_0_101, k_0_229, k_0_102, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_121
+=======================================
+result_sonic_4_0_101_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.16 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.88 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_2, k_0_130, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_148, k_0_21, k_0_149, k_0_22, k_0_150, k_0_23, k_0_151, k_0_24, k_0_25, k_0_26, k_0_154, k_0_27, k_0_28, k_0_156, k_0_29, k_0_31, k_0_159, k_0_32, k_0_33, k_0_34, k_0_36, k_0_164, k_0_37, k_0_165, k_0_38, k_0_40, k_0_168, k_0_41, k_0_42, k_0_170, k_0_43, k_0_171, k_0_44, k_0_45, k_0_46, k_0_174, k_0_47, k_0_48, k_0_176, k_0_49, k_0_51, k_0_179, k_0_52, k_0_53, k_0_55, k_0_56, k_0_184, k_0_57, k_0_58, k_0_59, k_0_61, k_0_62, k_0_190, k_0_63, k_0_67, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_76, k_0_77, k_0_78, k_0_206, k_0_79, k_0_83, k_0_86, k_0_214, k_0_87, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_106, k_0_125, k_0_253, k_0_126
+=======================================
+result_sonic_4_0_102_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.69 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.41 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_133, k_0_6, k_0_134, k_0_7, k_0_135, k_0_8, k_0_136, k_0_9, k_0_10, k_0_11, k_0_139, k_0_12, k_0_13, k_0_141, k_0_14, k_0_16, k_0_144, k_0_17, k_0_18, k_0_19, k_0_21, k_0_149, k_0_22, k_0_150, k_0_23, k_0_25, k_0_153, k_0_26, k_0_27, k_0_155, k_0_28, k_0_156, k_0_29, k_0_30, k_0_31, k_0_159, k_0_32, k_0_33, k_0_161, k_0_34, k_0_36, k_0_164, k_0_37, k_0_38, k_0_40, k_0_41, k_0_169, k_0_42, k_0_43, k_0_44, k_0_46, k_0_47, k_0_175, k_0_48, k_0_52, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_61, k_0_62, k_0_63, k_0_191, k_0_64, k_0_68, k_0_71, k_0_199, k_0_72, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_91, k_0_110, k_0_238, k_0_111, k_0_115, k_0_243, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_103_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.72 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.14 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_4, k_0_6, k_0_134, k_0_7, k_0_135, k_0_8, k_0_10, k_0_138, k_0_11, k_0_12, k_0_140, k_0_13, k_0_141, k_0_14, k_0_15, k_0_16, k_0_144, k_0_17, k_0_18, k_0_146, k_0_19, k_0_21, k_0_149, k_0_22, k_0_23, k_0_25, k_0_26, k_0_154, k_0_27, k_0_28, k_0_29, k_0_31, k_0_32, k_0_160, k_0_33, k_0_37, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_46, k_0_47, k_0_48, k_0_176, k_0_49, k_0_53, k_0_56, k_0_184, k_0_57, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_76, k_0_95, k_0_223, k_0_96, k_0_100, k_0_228, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_246, k_0_119, k_0_247, k_0_120, k_0_248, k_0_121, k_0_249, k_0_122, k_0_123, k_0_124, k_0_252, k_0_125, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_104_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.34 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 9.89 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_1, k_0_129, k_0_2, k_0_3, k_0_131, k_0_4, k_0_6, k_0_134, k_0_7, k_0_8, k_0_10, k_0_11, k_0_139, k_0_12, k_0_13, k_0_14, k_0_16, k_0_17, k_0_145, k_0_18, k_0_22, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_31, k_0_32, k_0_33, k_0_161, k_0_34, k_0_38, k_0_41, k_0_169, k_0_42, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_61, k_0_80, k_0_208, k_0_81, k_0_85, k_0_213, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_219, k_0_92, k_0_94, k_0_222, k_0_95, k_0_96, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_231, k_0_104, k_0_232, k_0_105, k_0_233, k_0_106, k_0_234, k_0_107, k_0_108, k_0_109, k_0_237, k_0_110, k_0_111, k_0_239, k_0_112, k_0_114, k_0_242, k_0_115, k_0_116, k_0_117, k_0_119, k_0_247, k_0_120, k_0_248, k_0_121, k_0_123, k_0_251, k_0_124, k_0_125, k_0_253, k_0_126, k_0_254, k_0_127
+=======================================
+result_sonic_4_0_105_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.21 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.11 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1012 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_130, k_0_3, k_0_7, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_16, k_0_17, k_0_18, k_0_146, k_0_19, k_0_23, k_0_26, k_0_154, k_0_27, k_0_30, k_0_158, k_0_31, k_0_33, k_0_161, k_0_34, k_0_35, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_46, k_0_65, k_0_193, k_0_66, k_0_70, k_0_198, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_204, k_0_77, k_0_79, k_0_207, k_0_80, k_0_81, k_0_83, k_0_211, k_0_84, k_0_86, k_0_214, k_0_87, k_0_88, k_0_216, k_0_89, k_0_217, k_0_90, k_0_218, k_0_91, k_0_219, k_0_92, k_0_93, k_0_94, k_0_222, k_0_95, k_0_96, k_0_224, k_0_97, k_0_99, k_0_227, k_0_100, k_0_101, k_0_102, k_0_104, k_0_232, k_0_105, k_0_233, k_0_106, k_0_108, k_0_236, k_0_109, k_0_110, k_0_238, k_0_111, k_0_239, k_0_112, k_0_113, k_0_114, k_0_242, k_0_115, k_0_116, k_0_244, k_0_117, k_0_119, k_0_247, k_0_120, k_0_121, k_0_123, k_0_124, k_0_252, k_0_125, k_0_126, k_0_127
+=======================================
+result_sonic_4_0_106_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.30 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.15 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1011 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_2, k_0_3, k_0_131, k_0_4, k_0_8, k_0_11, k_0_139, k_0_12, k_0_15, k_0_143, k_0_16, k_0_18, k_0_146, k_0_19, k_0_20, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_31, k_0_50, k_0_178, k_0_51, k_0_55, k_0_183, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_189, k_0_62, k_0_64, k_0_192, k_0_65, k_0_66, k_0_68, k_0_196, k_0_69, k_0_71, k_0_199, k_0_72, k_0_73, k_0_201, k_0_74, k_0_202, k_0_75, k_0_203, k_0_76, k_0_204, k_0_77, k_0_78, k_0_79, k_0_207, k_0_80, k_0_81, k_0_209, k_0_82, k_0_84, k_0_212, k_0_85, k_0_86, k_0_87, k_0_89, k_0_217, k_0_90, k_0_218, k_0_91, k_0_93, k_0_221, k_0_94, k_0_95, k_0_223, k_0_96, k_0_224, k_0_97, k_0_98, k_0_99, k_0_227, k_0_100, k_0_101, k_0_229, k_0_102, k_0_104, k_0_232, k_0_105, k_0_106, k_0_108, k_0_109, k_0_237, k_0_110, k_0_111, k_0_112, k_0_114, k_0_115, k_0_243, k_0_116, k_0_120, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_107_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 89.47 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.04 seconds
+Number of guesses: 111
+Number of known variables in the final state: 1006 out of 2816
+The following 111 variable(s) are guessed:
+k_0_0, k_0_128, k_0_1, k_0_3, k_0_131, k_0_4, k_0_5, k_0_8, k_0_136, k_0_9, k_0_11, k_0_139, k_0_12, k_0_13, k_0_16, k_0_35, k_0_163, k_0_36, k_0_40, k_0_168, k_0_41, k_0_169, k_0_42, k_0_44, k_0_172, k_0_45, k_0_46, k_0_174, k_0_47, k_0_49, k_0_177, k_0_50, k_0_51, k_0_53, k_0_181, k_0_54, k_0_56, k_0_184, k_0_57, k_0_58, k_0_186, k_0_59, k_0_187, k_0_60, k_0_188, k_0_61, k_0_189, k_0_62, k_0_63, k_0_64, k_0_192, k_0_65, k_0_66, k_0_194, k_0_67, k_0_69, k_0_197, k_0_70, k_0_71, k_0_72, k_0_74, k_0_202, k_0_75, k_0_203, k_0_76, k_0_78, k_0_206, k_0_79, k_0_80, k_0_208, k_0_81, k_0_209, k_0_82, k_0_83, k_0_84, k_0_212, k_0_85, k_0_86, k_0_214, k_0_87, k_0_89, k_0_217, k_0_90, k_0_91, k_0_93, k_0_94, k_0_222, k_0_95, k_0_96, k_0_97, k_0_99, k_0_100, k_0_228, k_0_101, k_0_105, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_114, k_0_115, k_0_116, k_0_244, k_0_117, k_0_121, k_0_124, k_0_252, k_0_125
+=======================================
+result_sonic_4_0_108_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.99 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.22 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_1, k_0_20, k_0_148, k_0_21, k_0_25, k_0_153, k_0_26, k_0_154, k_0_27, k_0_29, k_0_157, k_0_30, k_0_31, k_0_159, k_0_32, k_0_34, k_0_162, k_0_35, k_0_36, k_0_38, k_0_166, k_0_39, k_0_41, k_0_169, k_0_42, k_0_43, k_0_171, k_0_44, k_0_172, k_0_45, k_0_173, k_0_46, k_0_174, k_0_47, k_0_48, k_0_49, k_0_177, k_0_50, k_0_51, k_0_179, k_0_52, k_0_54, k_0_182, k_0_55, k_0_56, k_0_57, k_0_59, k_0_187, k_0_60, k_0_188, k_0_61, k_0_63, k_0_191, k_0_64, k_0_65, k_0_193, k_0_66, k_0_194, k_0_67, k_0_68, k_0_69, k_0_197, k_0_70, k_0_71, k_0_199, k_0_72, k_0_74, k_0_202, k_0_75, k_0_76, k_0_78, k_0_79, k_0_207, k_0_80, k_0_81, k_0_82, k_0_84, k_0_85, k_0_213, k_0_86, k_0_90, k_0_91, k_0_219, k_0_92, k_0_94, k_0_222, k_0_95, k_0_96, k_0_99, k_0_100, k_0_101, k_0_229, k_0_102, k_0_106, k_0_109, k_0_237, k_0_110, k_0_113, k_0_241, k_0_114, k_0_116, k_0_244, k_0_117, k_0_118, k_0_121, k_0_249, k_0_122, k_0_124, k_0_252, k_0_125, k_0_126
+=======================================
+result_sonic_4_0_109_0.txt
+Number of guessed variables is set to be at most 2816
+Generating the CP model ...
+CP model was generated after 88.40 seconds
+Solving the CP model with or-tools ...
+Solving process was finished after 10.06 seconds
+Number of guesses: 112
+Number of known variables in the final state: 1010 out of 2816
+The following 112 variable(s) are guessed:
+k_0_0, k_0_5, k_0_133, k_0_6, k_0_10, k_0_138, k_0_11, k_0_139, k_0_12, k_0_14, k_0_142, k_0_15, k_0_16, k_0_144, k_0_17, k_0_19, k_0_147, k_0_20, k_0_21, k_0_23, k_0_151, k_0_24, k_0_26, k_0_154, k_0_27, k_0_28, k_0_156, k_0_29, k_0_157, k_0_30, k_0_158, k_0_31, k_0_159, k_0_32, k_0_33, k_0_34, k_0_162, k_0_35, k_0_36, k_0_164, k_0_37, k_0_39, k_0_167, k_0_40, k_0_41, k_0_42, k_0_44, k_0_172, k_0_45, k_0_173, k_0_46, k_0_48, k_0_176, k_0_49, k_0_50, k_0_178, k_0_51, k_0_179, k_0_52, k_0_53, k_0_54, k_0_182, k_0_55, k_0_56, k_0_184, k_0_57, k_0_59, k_0_187, k_0_60, k_0_61, k_0_63, k_0_64, k_0_192, k_0_65, k_0_66, k_0_67, k_0_69, k_0_70, k_0_198, k_0_71, k_0_75, k_0_76, k_0_204, k_0_77, k_0_79, k_0_207, k_0_80, k_0_81, k_0_84, k_0_85, k_0_86, k_0_214, k_0_87, k_0_91, k_0_94, k_0_222, k_0_95, k_0_98, k_0_226, k_0_99, k_0_101, k_0_229, k_0_102, k_0_103, k_0_106, k_0_234, k_0_107, k_0_109, k_0_237, k_0_110, k_0_111, k_0_114
+=======================================

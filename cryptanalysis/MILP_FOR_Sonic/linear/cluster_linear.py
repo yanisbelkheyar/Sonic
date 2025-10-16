@@ -111,9 +111,9 @@ def search_cluster_lin(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round,size
         if(NBR_round==5):
             tot_nbr_test = 10000
             batch_nbr_sol = 10000
-        if(NBR_round==6):
-            tot_nbr_test = 5000
-            batch_nbr_sol = 5000
+        #if(NBR_round==6):
+        #    tot_nbr_test = 5000
+        #    batch_nbr_sol = 5000
 
     nbr_iter = tot_nbr_test // batch_nbr_sol
 

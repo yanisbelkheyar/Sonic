@@ -1,11 +1,10 @@
 #include "diffusion_test.h"
-#include "usefull/function_binary.h"
 #include <omp.h>
 
 #define one(x,i) ((x>>i)&1)
 
-#define SIZE 256
-#define H_SIZE 128
+#define SIZE 512
+#define H_SIZE 256
 #define THREADS_NBR 16
 
 typedef uint64_t (*round_function)(uint64_t);
@@ -179,6 +178,11 @@ int* enc_big_rev(int NL1,
     //inv of 1+X^7+X^32 mod 128
     output[((i*IM)% H_SIZE)+H_SIZE] = input[(i+4) % H_SIZE] ^ input[(i+18) % H_SIZE] ^ input[(i+36) % H_SIZE] ^ input[(i+43) % H_SIZE] 
     ^ input[(i+68) % H_SIZE] ^ input[(i+100) % H_SIZE] ^ input[(i+107) % H_SIZE] ^ input[(i+114) % H_SIZE] ^ input[(i+121) % H_SIZE]; //input[(i+L1) % H_SIZE] ^ input[(i+L2) % H_SIZE] ^ input[(i+L3) % H_SIZE];
+
+    output[((i*IM)% H_SIZE)+H_SIZE] = input[(i+16) % H_SIZE] ^ input[(i+56) % H_SIZE] ^ input[(i+72) % H_SIZE] ^ input[(i+88) % H_SIZE] 
+      ^ input[(i+96) % H_SIZE] ^ input[(i+104) % H_SIZE] ^ input[(i+120) % H_SIZE] ; //input[(i+L1) % H_SIZE] ^ input[(i+L2) % H_SIZE] ^ input[(i+L3) % H_SIZE];
+
+    
     }else if(SIZE==512){
     //inv of 1+X^7+X^32 mod 256
     output[((i*IM)% H_SIZE)+H_SIZE] =  input[(i+249) % H_SIZE] ^ input[(i+246) % H_SIZE] 
@@ -512,7 +516,7 @@ int main(){
 
   printf("test for size %d, for %d round\n",SIZE,nbr_round);
 
-  test_full_round(0,1,5,0,7,32,15,nbr_sample,0,nbr_round);
+  test_full_round(0,1,5,0,3,20,7,nbr_sample,0,nbr_round);
 
   //test_all(nbr_round,nbr_sample);
 

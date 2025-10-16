@@ -8,7 +8,7 @@ _sage_const_256 = Integer(256);
 _sage_const_128 = Integer(128);
 _sage_const_15 = Integer(15);
 _sage_const_7 = Integer(7);
-_sage_const_32 = Integer(32);
+_sage_const_25 = Integer(25);
 _sage_const_1 = Integer(1);
 _sage_const_2 = Integer(2);
 _sage_const_57 = Integer(57);
@@ -22,8 +22,8 @@ import sage.rings.polynomial.multi_polynomial_element
 from sage.rings.polynomial.pbori import substitute_variables
 from sage.all import *
 
-STATE_SIZE = 256 
-H_STATE_SIZE = 128
+STATE_SIZE = 512  
+H_STATE_SIZE = 256
 
 #Generate variables
             
@@ -50,10 +50,10 @@ state_left_init,state_right_init = state0_left,state0_right
 #step function for the round function of Sonic and Simon
 
 def pi(state_bits):
-    return [state_bits[(15 *i) % H_STATE_SIZE] for i in range(H_STATE_SIZE)]
+    return [state_bits[(7 *i) % H_STATE_SIZE] for i in range(H_STATE_SIZE)]
 
 def theta(state_bits):
-    return [state_bits[i] + state_bits[(i+_sage_const_7 ) % H_STATE_SIZE] + state_bits[(i+_sage_const_32 ) % H_STATE_SIZE] for i in range(H_STATE_SIZE)]
+    return [state_bits[i] + state_bits[(i+3 ) % H_STATE_SIZE] + state_bits[(i+20 ) % H_STATE_SIZE] for i in range(H_STATE_SIZE)]
 
 def chi(state_bits):
     return [state_bits[(i+5) % H_STATE_SIZE] + ((state_bits[(i+1) % H_STATE_SIZE]) * state_bits[(i+2) % H_STATE_SIZE]) for i in range(H_STATE_SIZE)]
@@ -113,6 +113,17 @@ def get_max_deg_from_anf(anf):
 #return the number of term in each side of the anf
 def get_nbr_term(anf_left,anf_right):
 
+    #print(anf_right[0])
+    min = len(anf_right[0])
+    max = 0
+    for i in anf_right:
+        if(len(i)<min):
+            min = len(i)
+        if(len(i)>max):
+            max = len(i)
+    print("min nbr term anf right",min)
+    print("max nbr term anf right",max)
+    
     min = len(anf_left[0])
     max = 0
     #print(anf_left[0])
@@ -124,16 +135,7 @@ def get_nbr_term(anf_left,anf_right):
     print("min nbr term anf left",min)
     print("max nbr term anf left",max)
 
-    #print(anf_right[0])
-    min = len(anf_right[0])
-    max = 0
-    for i in anf_right:
-        if(len(i)<min):
-            min = len(i)
-        if(len(i)>max):
-            max = len(i)
-    print("min nbr term anf right",min)
-    print("max nbr term anf right",max)
+    
 
 #return the degree distribution in each side of the anf
 def get_distribution(anf_left,anf_right):
@@ -141,8 +143,8 @@ def get_distribution(anf_left,anf_right):
     distri_left,distri_right = [0]*32,[0]*32
 
     for j in anf_left:
-        if(len(str(j).split("*"))==3):
-            print(distri_left[len(str(j).split("*"))], str(j))
+        #if(len(str(j).split("*"))==3):
+            #print(distri_left[len(str(j).split("*"))], str(j))
         distri_left[len(str(j).split("*"))] += 1
 
     for j in anf_right:
@@ -215,6 +217,7 @@ def max_deg_anf_exented_2(nbr_round):
         state_left = left_output(state_left,state_right)
         state_right = state_tmp
 
+    #to change to make it a function of the rotation values
     state0_chi = (state_left[1])*state_left[2] + state_left[5] + state_right[0]
     state1_chi = (state_left[112])*state_left[113] + state_left[116] + state_right[111]
 
@@ -247,15 +250,15 @@ index = 0
 
 if(len(sys.argv)==2):
 
-    if(nbr_round>=4):
-         max_deg_anf_exented_2(nbr_round)
-        #anf_left,anf_right = anf_extended_1(nbr_round)
-        #get_nbr_term(anf_left,anf_right)
+    if(nbr_round>=5):
+         #max_deg_anf_exented_2(nbr_round)
+        anf_left,anf_right = anf_extended_1(nbr_round)
+        get_nbr_term(anf_left,anf_right)
     else:
         anf_left,anf_right = anf_full(nbr_round)
         #for i in range(len(anf_left[index])):
         #    print(anf_left[index][i])
-        #get_nbr_term(anf_left,anf_right)
+        get_nbr_term(anf_left,anf_right)
     
     get_distribution(anf_left[index],anf_right[index])
     

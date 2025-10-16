@@ -1,0 +1,8 @@
+<config>
+  <options>
+    <option name="f"  value="sonic256hard"/>
+    <option name="n"  value="TODO:NUM_ROUNDS"/>
+    <option name="w"  value="TODO:WORD_SIZE"/>
+  </options>
+  <char value=""/>
+</config>

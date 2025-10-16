@@ -17,12 +17,17 @@ from print_result import print_trail,print_all
 #SLL1 : shift linear left 1
 #SLL2 : shift linear left 2
 # and for NBR_round, model and comput the minimum weight for any trail
-def search_trail_lin(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round):
+def search_trail_lin(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round,test):
 
-    add_constraint(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round);
+    if(test==1):
+        add_constraint_full(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round);
+    elif(test==2):
+        add_constraint_duplex(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round);
+    else:
+        add_constraint(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round);
 
     #set up the bound, wich mean that if the objectiv value goes below that value then the optimization stop
-    #P.setParam(GRB.Param.BestObjStop,weight_min)
+    P.setParam(GRB.Param.BestObjStop,weight_min[NBR_round])
     
     #P.setParam(GRB.Param.Cutoff,20)
 

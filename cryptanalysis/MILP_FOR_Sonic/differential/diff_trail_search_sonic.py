@@ -19,13 +19,15 @@ def search_trail_dif(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round,test):
 
     if(test==1):
        add_constraint_full(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round)
+    elif(test==2):
+        add_constraint_duplex(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round)
     else:
         add_constraint(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round)
 
     #set the parameter of the Gubrobi solver for faster result
 
     #set up the bound, wich mean that if the objectiv value goes below that value then the optimization stop
-    #P.setParam(GRB.Param.BestObjStop,weight_min)
+    P.setParam(GRB.Param.BestObjStop,min_weight[NBR_round])
 
     #set a time limitation for the optimizer
     #P.Params.timeLimit = 36000
@@ -49,6 +51,7 @@ def search_trail_dif(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round,test):
 
     weight = P.ObjVal
 
+    #if(weight==26):
     print_trail(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,NBR_round)
     print()
     print()

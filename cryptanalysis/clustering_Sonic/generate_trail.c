@@ -15,8 +15,10 @@
 #define PRINT 0
 
 #define one(x,i) ((x>>i)&1)
-#define M 15
-#define IM 111
+#define M 5
+#define IM 77
+
+#define version 1
 
 void PI(int mul_shuffle,state* s){
 
@@ -62,7 +64,7 @@ void THETA_old(state* s1){
 
 }
 
-void THETA(state* s1){
+void THETA256_18(state* s1){
     state* tmp = malloc(sizeof(state));
     tmp->size_64 = s1->size_64;
     tmp->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
@@ -72,8 +74,8 @@ void THETA(state* s1){
     tmp1->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
 
 
-    shift(7,s1,tmp);
-    shift(32,s1,tmp1);
+    shift(16,s1,tmp);
+    shift(40,s1,tmp1);
     XOR(s1,tmp);
     XOR(s1,tmp1);
 
@@ -81,6 +83,56 @@ void THETA(state* s1){
     free(tmp1->data_64);
     free(tmp);
     free(tmp1);
+}
+
+void THETA256_16(state* s1){
+    state* tmp = malloc(sizeof(state));
+    tmp->size_64 = s1->size_64;
+    tmp->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
+    
+    state* tmp1 = malloc(sizeof(state));
+    tmp1->size_64 = s1->size_64;
+    tmp1->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
+
+
+    shift(18,s1,tmp);
+    shift(47,s1,tmp1);
+    XOR(s1,tmp);
+    XOR(s1,tmp1);
+
+    free(tmp->data_64);
+    free(tmp1->data_64);
+    free(tmp);
+    free(tmp1);
+}
+
+void THETA512_12(state* s1){
+    state* tmp = malloc(sizeof(state));
+    tmp->size_64 = s1->size_64;
+    tmp->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
+    
+    state* tmp1 = malloc(sizeof(state));
+    tmp1->size_64 = s1->size_64;
+    tmp1->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
+
+
+    shift(3,s1,tmp);
+    shift(20,s1,tmp1);
+    XOR(s1,tmp);
+    XOR(s1,tmp1);
+
+    free(tmp->data_64);
+    free(tmp1->data_64);
+    free(tmp);
+    free(tmp1);
+}
+
+void THETA(state* s1){
+    if(version==0){
+        THETA256_18(s1);
+    }else{
+        THETA256_16(s1);
+    }
 }
 
 void THETA256_inv_old(state* left){
@@ -123,8 +175,7 @@ void THETA256_inv_old(state* left){
 
 }
 
-
-void THETA256_inv(state* left){
+void THETA256_18_inv(state* left){
 
     state* tmp = malloc(sizeof(state));
     tmp->size_64 = left->size_64;
@@ -134,32 +185,177 @@ void THETA256_inv(state* left){
     tmp1->size_64 = left->size_64;
     tmp1->data_64 = malloc(sizeof(uint64_t)*tmp1->size_64);
     
-    shift(32,left,tmp);
-    shift(7,left,tmp1);
-    XOR(tmp,tmp1);
-    XOR(left,tmp);
-
-    shift(14,left,tmp);
-    shift(64,left,tmp1);
-    XOR(tmp,tmp1);
-    XOR(left,tmp);
-
-    /*
-    shift(28,left,tmp);
-    shift(56,tmp,left);
-
-    shift(112,left,tmp);
-    shift(96,tmp,left);
-
-    shift(64,left,tmp);
-    */
-   shift(100,left,tmp);
-    copy(tmp,left);
+    shift(16,left,tmp);
+    shift(56,left,tmp1);
+    XOR(tmp1,tmp);
+    shift(72,left,tmp);
+    XOR(tmp1,tmp);
+    shift(88,left,tmp);
+    XOR(tmp1,tmp);
+    shift(96,left,tmp);
+    XOR(tmp1,tmp);
+    shift(104,left,tmp);
+    XOR(tmp1,tmp);
+    shift(120,left,tmp);
+    XOR(tmp1,tmp);
+    copy(tmp1,left);
 
     free(tmp->data_64);
     free(tmp1->data_64);
     free(tmp);
     free(tmp1);
+
+}
+
+void THETA256_16_inv(state* left){
+
+    state* tmp = malloc(sizeof(state));
+    tmp->size_64 = left->size_64;
+    tmp->data_64 = malloc(sizeof(uint64_t)*tmp->size_64);
+
+    state* tmp1 = malloc(sizeof(state));
+    tmp1->size_64 = left->size_64;
+    tmp1->data_64 = malloc(sizeof(uint64_t)*tmp1->size_64);
+    
+    shift(6,left,tmp1);
+    XOR(tmp1,left);
+    shift(8,left,tmp);
+    XOR(tmp1,tmp);
+    shift(9,left,tmp);
+    XOR(tmp1,tmp);
+    shift(11,left,tmp);  
+    XOR(tmp1,tmp);
+    shift(12,left,tmp);
+    XOR(tmp1,tmp);
+    shift(15,left,tmp);
+    XOR(tmp1,tmp);
+    shift(16,left,tmp);
+    XOR(tmp1,tmp);
+    shift(19,left,tmp);
+    XOR(tmp1,tmp);
+    shift(20,left,tmp);
+    XOR(tmp1,tmp);
+    shift(22,left,tmp);
+    XOR(tmp1,tmp);
+    shift(23,left,tmp);
+    XOR(tmp1,tmp);
+    shift(26,left,tmp);
+    XOR(tmp1,tmp);
+    shift(27,left,tmp);
+    XOR(tmp1,tmp);
+    shift(28,left,tmp);
+    XOR(tmp1,tmp);
+    shift(31,left,tmp);
+    XOR(tmp1,tmp);
+    shift(32,left,tmp);
+    XOR(tmp1,tmp);
+    shift(33,left,tmp);
+    XOR(tmp1,tmp);
+    shift(35,left,tmp);
+    XOR(tmp1,tmp);
+    shift(41,left,tmp);
+    XOR(tmp1,tmp);
+    shift(47,left,tmp);
+    XOR(tmp1,tmp);
+    shift(49,left,tmp);
+    XOR(tmp1,tmp);
+    shift(50,left,tmp);
+    XOR(tmp1,tmp);
+    shift(51,left,tmp);
+    XOR(tmp1,tmp);
+    shift(55,left,tmp);
+    XOR(tmp1,tmp);
+    shift(56,left,tmp);
+    XOR(tmp1,tmp);
+    shift(58,left,tmp);
+    XOR(tmp1,tmp);
+    shift(62,left,tmp);
+    XOR(tmp1,tmp);
+    shift(63,left,tmp);
+    XOR(tmp1,tmp);
+    shift(65,left,tmp);
+    XOR(tmp1,tmp);
+    shift(66,left,tmp);
+    XOR(tmp1,tmp);
+    shift(68,left,tmp);
+    XOR(tmp1,tmp);
+    shift(70,left,tmp);
+    XOR(tmp1,tmp);
+    shift(75,left,tmp);
+    XOR(tmp1,tmp);
+    shift(76,left,tmp);
+    XOR(tmp1,tmp);
+    shift(78,left,tmp);
+    XOR(tmp1,tmp);
+    shift(79,left,tmp);
+    XOR(tmp1,tmp);
+    shift(81,left,tmp);
+    XOR(tmp1,tmp);
+    shift(82,left,tmp);
+    XOR(tmp1,tmp);
+    shift(83,left,tmp);
+    XOR(tmp1,tmp);
+    shift(84,left,tmp);
+    XOR(tmp1,tmp);
+    shift(86,left,tmp);
+    XOR(tmp1,tmp);
+    shift(93,left,tmp);
+    XOR(tmp1,tmp);
+    shift(98,left,tmp);
+    XOR(tmp1,tmp);
+    shift(99,left,tmp);
+    XOR(tmp1,tmp);
+    shift(100,left,tmp);
+    XOR(tmp1,tmp);
+    shift(101,left,tmp);
+    XOR(tmp1,tmp);
+    shift(103,left,tmp);
+    XOR(tmp1,tmp);
+    shift(104,left,tmp);
+    XOR(tmp1,tmp);
+    shift(105,left,tmp);
+    XOR(tmp1,tmp);
+    shift(109,left,tmp);
+    XOR(tmp1,tmp);
+    shift(110,left,tmp);
+    XOR(tmp1,tmp);
+    shift(111,left,tmp);
+    XOR(tmp1,tmp);
+    shift(112,left,tmp);
+    XOR(tmp1,tmp);
+    shift(113,left,tmp);
+    XOR(tmp1,tmp);
+    shift(115,left,tmp);
+    XOR(tmp1,tmp);
+    shift(116,left,tmp);
+    XOR(tmp1,tmp);
+    shift(118,left,tmp);
+    XOR(tmp1,tmp);
+    shift(119,left,tmp);
+    XOR(tmp1,tmp);
+    shift(121,left,tmp);
+    XOR(tmp1,tmp);
+    shift(125,left,tmp);
+    XOR(tmp1,tmp);
+    shift(126,left,tmp);
+    XOR(tmp1,tmp);
+    shift(127,left,tmp);
+    XOR(tmp1,tmp);
+    copy(tmp1,left);
+
+    free(tmp->data_64);
+    free(tmp1->data_64);
+    free(tmp);
+    free(tmp1);
+
+}
+
+void THETA256_inv(state* left){
+    if(version==0){
+        THETA256_18_inv(left);
+    }else{
+        THETA256_16_inv(left);
+    }
 
 }
 

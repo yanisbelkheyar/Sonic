@@ -55,15 +55,15 @@ Sonic::Sonic(cxxopts::Options& options) : Crypto(options["word-size"].as<int>())
   
   
   for (int i = 0; i < num_rounds_; i++) {
-    permute(Xhi[i], Xli[i], Xh[i+1], Xl[i+1], 111);
-    permute(Yhi[i], Yli[i], Yh[i+1], Yl[i+1], 111);
+    permute(Xhi[i], Xli[i], Xh[i+1], Xl[i+1], 77);
+    permute(Yhi[i], Yli[i], Yh[i+1], Yl[i+1], 77);
     
     
     ConditionWordPtr c(new ConditionWord(C[30-num_rounds_+i],word_size_));
-    Add(new BitsliceStep<XOR<5>>(word_size_, Xh[i], Xh[i]->Shr(7), Xl[i]->Shl(word_size_-7), Xh[i]->Shr(32), Xl[i]->Shl(word_size_-32),  Yhi[i]));
-    Add(new BitsliceStep<XOR<5>>(word_size_, Xl[i], Xl[i]->Shr(7), Xh[i]->Shl(word_size_-7), Xl[i]->Shr(32), Xh[i]->Shl(word_size_-32), Al[i]));
+    Add(new BitsliceStep<XOR<5>>(word_size_, Xh[i], Xh[i]->Shr(16), Xl[i]->Shl(word_size_-16), Xh[i]->Shr(40), Xl[i]->Shl(word_size_-40),  Yhi[i]));
+    Add(new BitsliceStep<XOR<5>>(word_size_, Xl[i], Xl[i]->Shr(16), Xh[i]->Shl(word_size_-16), Xl[i]->Shr(40), Xh[i]->Shl(word_size_-40), Al[i]));
     Add(new BitsliceStep<XOR<2>>(word_size_, Al[i], c, Yli[i]));
-    Add(new LinearStep<Sonic::Theta<0, 7, 32>>(word_size_, Xh[i], Xl[i], Yhi[i], Al[i]));
+    //Add(new LinearStep<Sonic::Theta<0, 16, 40>>(word_size_, Xh[i], Xl[i], Yhi[i], Al[i]));
     Add(new BitsliceStep<XOR2AND2>(word_size_, Xh[i]->Shr(1), Xl[i]->Shl(word_size_-1), Xh[i], Zh[i]));
     Add(new BitsliceStep<XOR2AND2>(word_size_, Xl[i]->Shr(1), Xh[i]->Shl(word_size_-1), Xl[i], Zl[i]));
     //Add(new BitsliceStep<isActive>(word_size_, Xh[i]->Shr(1), Xl[i]->Shl(word_size_-1), Xh[i], Ah[i]));

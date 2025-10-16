@@ -22,18 +22,19 @@ def remove_shifted_trails_spine(NBR_round):
 def check_real_lp(NBR_round):
     weight = 0
     for i in range(NBR_round):
-        for idx in range(H_SONIC_SIZE,SONIC_SIZE):
-                if(x[i,idx].getAttr('xn')==1):
+        for idx in range(H_SONIC_SIZE):
+                if(x[i,idx+H_SONIC_SIZE].getAttr('xn')==1):
                     weight+=1
                     #check the length of the run
-                    run_lenght = 1
                     for run_l in range(1,H_SONIC_SIZE):
-                        if(x[i,(idx+run_l)%H_SONIC_SIZE + H_SONIC_SIZE].getAttr('xn')==1):
-                            run_length+=1
-                        else:
-                            if(run_lenght%2==1):
+                        if(x[i,(idx+run_l)%H_SONIC_SIZE + H_SONIC_SIZE].getAttr('xn')==0):
+                            if(run_l%2==1):
                                 weight+=1
+                            #print("current weight =",weight,"size run =",run_l)
                             break
+                        else:
+                            weight +=1
+                            
     return weight
 
 #for a specific shifting rotation setup :
@@ -50,17 +51,17 @@ def search_distribution_lin(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round
 
     if(size_test==0):
         if(NBR_round==3):
-            tot_nbr_test = 80000
-            batch_nbr_sol = 80000
-        if(NBR_round==4):
             tot_nbr_test = 50000
             batch_nbr_sol = 50000
-        if(NBR_round==5):
+        if(NBR_round==4):
             tot_nbr_test = 40000
             batch_nbr_sol = 40000
-        if(NBR_round==6):
-            tot_nbr_test = 10000
-            batch_nbr_sol = 10000
+        if(NBR_round==5):
+            tot_nbr_test = 20000
+            batch_nbr_sol = 20000
+        #if(NBR_round==6):
+        #    tot_nbr_test = 10000
+        #    batch_nbr_sol = 10000
     
 
     nbr_iter = tot_nbr_test // batch_nbr_sol
@@ -115,9 +116,14 @@ def search_distribution_lin(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round
             if(int(round(P.PoolObjVal))%2==1):
                     #check if the weight is correct
                     real_weight = check_real_lp(NBR_round)
+                    print("real weight=",real_weight," expected weight=",int(round(P.PoolObjVal)))
+
+
+            if(real_weight==0 or int(round(P.PoolObjVal))==0):
+                print_trail(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,NBR_round)
 
             #case where the weight is slightly different from the estimated one
-            if(real_weight!=int(round(P.PoolObjVal))):
+            if(real_weight>int(round(P.PoolObjVal))):
 
                 if(not trail_spine in list_shifted and not(distribution[real_weight]==0)):
                     list_shifted += remove_shifted_trails_spine(NBR_round)

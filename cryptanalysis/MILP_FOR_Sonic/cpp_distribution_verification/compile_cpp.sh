@@ -1,0 +1,1 @@
+g++ -std=c++98 -m64 -g -o test_cpp batchmode_c++.cpp -I /opt/gurobi1103/linux64/include/ -L /opt/gurobi1103/linux64/lib/ -lgurobi_c++ -lgurobi110 -lm

@@ -22,9 +22,8 @@ import sage.misc.prandom
 from sage.rings.polynomial.pbori import substitute_variables
 from sage.all import *
 
-STATE_SIZE = 256 
-H_STATE_SIZE = 128
-
+STATE_SIZE = 512 
+H_STATE_SIZE = 256
             
 xvars = ["x" + str(i) for i in range(STATE_SIZE)]
 kvars = ["k" + str(i) for i in range(STATE_SIZE)]

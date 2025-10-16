@@ -34,11 +34,11 @@ from argparse import ArgumentParser, RawTextHelpFormatter
 
 class Sonic:
     count = 0
-    def __init__(self, nrounds=10, solver_name="cadical", word_size=4, branches=32):
+    def __init__(self, nrounds=10, solver_name="cadical103", word_size=32, branches=2):
         Sonic.count += 1
         self.nrounds = nrounds
         self.sat_solver_name = solver_name
-        self.supported_sat_solvers = list(solvers.SolverNames.cadical) + \
+        self.supported_sat_solvers = list(solvers.SolverNames.cadical103) + \
              list(solvers.SolverNames.glucose4) + \
                  list(solvers.SolverNames.glucose3) + \
                      list(solvers.SolverNames.lingeling) + \
@@ -49,7 +49,7 @@ class Sonic:
                                      list(solvers.SolverNames.minisat22) + \
                                          list(solvers.SolverNames.minisatgh)
         assert(self.sat_solver_name in self.supported_sat_solvers)
-        if self.sat_solver_name in solvers.SolverNames.cadical:
+        if self.sat_solver_name in solvers.SolverNames.cadical103:
             self.sat_solver = solvers.Cadical()
         elif self.sat_solver_name in solvers.SolverNames.glucose4:
             self.sat_solver = solvers.Glucose4()
@@ -323,7 +323,7 @@ def parse_args():
     parser.add_argument("-sl", "--solver", default="minisat22", type=str,
                         choices=['cadical', 'glucose3', 'glucose4', 'lingeling', 'maplechrono', 'maplecm', 'maplesat', 'minicard', 'minisat22', 'minisat-gh'],
                         help="choose a SAT solver\n")
-    parser.add_argument("-bl", "--blocksize", default=128, type=int, help="block size\n")
+    parser.add_argument("-bl", "--blocksize", default=32, type=int, help="block size\n")
     return vars(parser.parse_args())
 
 if __name__ == '__main__':

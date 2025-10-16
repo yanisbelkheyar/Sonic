@@ -139,7 +139,7 @@ def set_obj(NBR_round,weight_min):
         for j in range(H_SONIC_SIZE):
             Q += x[i,j+H_SONIC_SIZE] + A[i,j]
 
-    P.addConstr(Q>=weight_min[NBR_round])
+    #P.addConstr(Q>=weight_min[NBR_round])
     P.setObjective(Q,GRB.MINIMIZE)
 
 
@@ -148,8 +148,46 @@ def add_constraint(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round):
     if(not (P.NumConstrs==0)):
         P.remove(P.getConstrs()[0:P.NumConstrs-1])
     
+    #if(SONIC_SIZE==512):
+    #    P.addConstr(x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+    #    for i in range(H_SONIC_SIZE):
+    #        P.addConstr(x[NBR_round-1,i]==0)    
+    #else:
     P.addConstr(x[NBR_round-1,0]+x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+        
+    for round in range(NBR_round-1,NBR_ROUND):
+        for i in range(SONIC_SIZE):
+            if(round>NBR_round-1):
+                P.addConstr(x[round,i]==0)
+                if(i<H_SONIC_SIZE):
+                    P.addConstr(A[round,i]==0)
+            if(i<H_SONIC_SIZE):
+                P.addConstr(e[round,i]==0)
+                P.addConstr(f[round,i]==0)
+                P.addConstr(xp[round,i]==0)
+            P.addConstr(y[round,i]==0)
+            P.addConstr(z[round,i]==0)
+
+    for i in range(NBR_round-1):
+        shuffle(i,M)
+        xor_2_bit_right_first(i)
+        fork_left(i,SLL1,SLL2,SLL3)
+        fork_left_2(i,SLR1)
+        NL_part(i,SNL1,SNL2)
+        set_odd(i)
+
+    set_odd(NBR_round-1)
+    set_obj(NBR_round,weight_min)
+
+    #add the constraint for NBR_round of the round function with the rotation value specify as argument to the model P
+def add_constraint_duplex(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round):
+    if(not (P.NumConstrs==0)):
+        P.remove(P.getConstrs()[0:P.NumConstrs-1])
     
+    P.addConstr(x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+    for i in range(H_SONIC_SIZE):
+        P.addConstr(x[NBR_round-1,i]==0)    
+        
     for round in range(NBR_round-1,NBR_ROUND):
         for i in range(SONIC_SIZE):
             if(round>NBR_round-1):
@@ -180,7 +218,13 @@ def add_constraint_full(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round):
     if(not (P.NumConstrs==0)):
         P.remove(P.getConstrs()[0:P.NumConstrs-1])
     
-    P.addConstr(x[NBR_round-1,0]+x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+    if(SONIC_SIZE==512):
+        P.addConstr(x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+        for i in range(H_SONIC_SIZE):
+            P.addConstr(x[NBR_round-1,i]==0)    
+    else:
+        P.addConstr(x[NBR_round-1,0]+x[NBR_round-1,0+H_SONIC_SIZE]>=1)
+    
     
     for round in range(NBR_round,NBR_ROUND):
         for i in range(SONIC_SIZE):

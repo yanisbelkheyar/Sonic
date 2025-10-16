@@ -39,9 +39,9 @@ def search_distribution_dif(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,weight_min,NBR_round
         if(NBR_round==5):
             tot_nbr_test = 40000
             batch_nbr_sol = 40000
-        if(NBR_round==6):
-            tot_nbr_test = 10000
-            batch_nbr_sol = 10000
+        #if(NBR_round==6):
+        #    tot_nbr_test = 10000
+        #    batch_nbr_sol = 10000
     
 
     nbr_iter = tot_nbr_test // batch_nbr_sol

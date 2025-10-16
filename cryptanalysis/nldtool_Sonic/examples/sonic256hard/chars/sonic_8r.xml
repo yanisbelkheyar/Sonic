@@ -1,0 +1,39 @@
+<config>
+  <options>
+    <option name="f"  value="sonic256hard"/>
+    <option name="n"  value="8"/>
+    <option name="w"  value="64"/>
+  </options>
+  <char value="
+  0 Xh: ---------------------------------------------------------------- Yh: ----------------------------------------------------------------
+  0 Xl: ---------------------------------------------------------------- Yl: ---------------------------------------------------------------x
+  1 Xh: ---------------------------------------------------------------- Yh: ----------------------------------------------------------------
+  1 Xl: ---------------------------------------------------------------x Yl: ----------------------------------------------------------------
+  "/>
+<search reseed="-1" credits="1000">
+  <phase twobit_complete="0">
+  <setting prob="0">
+      <mask word="Zh" rounds="2-4"/>
+      <mask word="Zl" rounds="2-4"/>
+      <guess condition="?" choice_prob="1"/>
+    </setting>
+    <setting prob="4">
+      <mask word="Xh" rounds="6-7"/>
+      <mask word="Xl" rounds="6-7"/>
+      <guess condition="?" choice_prob="1"/>
+    </setting>
+    <setting prob="1">
+      <mask word="Xh"/>
+      <mask word="Yh"/>
+      <mask word="Xl"/>
+      <mask word="Yl"/>
+      <guess condition="?" choice_prob="1"/>
+    </setting>
+    <setting prob="0">
+      <mask word="Zh"/>
+      <mask word="Zl"/>
+      <guess condition="?" choice_prob="1"/>
+    </setting>
+  </phase>
+</search>
+</config>

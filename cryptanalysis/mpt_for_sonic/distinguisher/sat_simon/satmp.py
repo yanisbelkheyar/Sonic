@@ -34,11 +34,11 @@ from argparse import ArgumentParser, RawTextHelpFormatter
 
 class Simon:
     count = 0
-    def __init__(self, nrounds=10, solver_name="cadical", word_size=4, branches=32):
+    def __init__(self, nrounds=10, solver_name="cadical103", word_size=32, branches=2):
         Simon.count += 1
         self.nrounds = nrounds
         self.sat_solver_name = solver_name
-        self.supported_sat_solvers = list(solvers.SolverNames.cadical) + \
+        self.supported_sat_solvers = list(solvers.SolverNames.cadical103) + \
              list(solvers.SolverNames.glucose4) + \
                  list(solvers.SolverNames.glucose3) + \
                      list(solvers.SolverNames.lingeling) + \
@@ -49,7 +49,7 @@ class Simon:
                                      list(solvers.SolverNames.minisat22) + \
                                          list(solvers.SolverNames.minisatgh)
         assert(self.sat_solver_name in self.supported_sat_solvers)
-        if self.sat_solver_name in solvers.SolverNames.cadical:
+        if self.sat_solver_name in solvers.SolverNames.cadical103:
             self.sat_solver = solvers.Cadical()
         elif self.sat_solver_name in solvers.SolverNames.glucose4:
             self.sat_solver = solvers.Glucose4()
@@ -316,16 +316,17 @@ def parse_args():
                                         "model corresponding to integral analysis "
                                         "based on monomial prediction",
                             formatter_class=RawTextHelpFormatter)
-    parser.add_argument("-nr", "--nrounds", default=21, type=int, help="number of rounds\n")
+    parser.add_argument("-nr", "--nrounds", default=5, type=int, help="number of rounds\n")
     parser.add_argument("-sl", "--solver", default="minisat22", type=str,
                         choices=['cadical', 'glucose3', 'glucose4', 'lingeling', 'maplechrono', 'maplecm', 'maplesat', 'minicard', 'minisat22', 'minisat-gh'],
                         help="choose a SAT solver\n")
-    parser.add_argument("-bl", "--blocksize", default=128, type=int, help="block size\n")
+    parser.add_argument("-bl", "--blocksize", default=32, type=int, help="block size\n")
     return vars(parser.parse_args())
 
 if __name__ == '__main__':
     locals().update(parse_args())    
     separator_line = "#"*100 + "\n"
+    print(blocksize)
     simon = Simon(nrounds=nrounds,
                 solver_name=solver, word_size=blocksize//2, branches=2)
     with open(simon.result_file_name, "w") as outputfile:
@@ -344,10 +345,10 @@ if __name__ == '__main__':
             outputfile.write(time_line)
         print(time_line)
         # Store the results in non-volatile memory for later uses
-        with open("mpdict_{branches*word_size}_nr_{self.nrounds}.pyobj", "wb") as mp_dict_file:
+        with open(f"mpdict_{blocksize}_nr_{simon.nrounds}.pyobj", "wb") as mp_dict_file:
             pickle.dump(mp_dict, mp_dict_file)
     else:
-        with open("mpdict_{branches*word_size}_nr_{self.nrounds}.pyobj", "rb") as mp_dict_file:
+        with open(f"mpdict_{blocksize}_nr_{simon.nrounds}.pyobj", "rb") as mp_dict_file:
             mp_dict = pickle.load(mp_dict_file)
 
     # Reduction of data complexity

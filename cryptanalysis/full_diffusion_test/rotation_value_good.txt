@@ -1,0 +1,61 @@
+
+for 3 , (0,1), X^1+X^12+X^27 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.703000, the min avalanche entropy is 63.903842 for 7 round 
+for 3 , (0,1), X^2+X^12+X^26 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.609000, the min avalanche entropy is 63.909016 for 7 round 
+for 3 , (0,1), X^2+X^16+X^24 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.609000, the min avalanche entropy is 63.916462 for 7 round 
+for 3 , (0,1), X^11+X^19+X^26 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.503000, the min avalanche entropy is 63.917573 for 7 round 
+for 3 , (0,1), X^12+X^14+X^31 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.645000, the min avalanche entropy is 63.918564 for 7 round 
+for 3 , (0,1), X^12+X^16+X^31 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.785000, the min avalanche entropy is 63.921212 for 7 round 
+for 3 , (0,1), X^12+X^23+X^31 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.795000, the min avalanche entropy is 63.923901 for 7 round 
+for 3 , (0,1), X^12+X^27+X^29 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.702000, the min avalanche entropy is 63.926869 for 7 round
+
+for 19 , (0,1), X^10+X^12+X^21 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.617000, the min avalanche entropy is 63.928761 for 7 round
+
+
+for 1 , (3,4), X^6+X^11+X^25 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.876900, the min avalanche entropy is 63.920301 for 7 round 
+for 1 , (3,4), X^6+X^12+X^26 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.679300, the min avalanche entropy is 63.945006 for 7 round 
+for 1 , (3,4), X^6+X^12+X^27 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.814800, the min avalanche entropy is 63.947172 for 7 round 
+for 1 , (3,4), X^6+X^13+X^28 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.784800, the min avalanche entropy is 63.954060 for 7 round 
+for 1 , (3,4), X^6+X^16+X^24 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.759100, the min avalanche entropy is 63.967907 for 7 round 
+for 1 , (3,4), X^9+X^17+X^28 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.879500, the min avalanche entropy is 63.977222 for 7 round 
+for 1 , (8,9), X^13+X^15+X^19 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.798000, the min avalanche entropy is 63.978311 for 7 round 
+for 1 , (11,12), X^10+X^14+X^16 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.753200, the min avalanche entropy is 63.978977 for 7 round 
+for 1 , (14,15), X^6+X^8+X^17 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.914000, the min avalanche entropy is 63.981784 for 7 round
+
+
+
+
+
+for 1 , (0,3), X^6+X^15+X^23 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.637500, the min avalanche entropy is 63.912448 for 7 round 
+for 1 , (0,27), X^4+X^14+X^23 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.737500, the min avalanche entropy is 63.914219 for 7 round 
+for 1 , (4,27), X^6+X^13+X^23 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.521250, the min avalanche entropy is 63.916751 for 7 round 
+for 1 , (12,29), X^1+X^3+X^27 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.607500, the min avalanche entropy is 63.917897 for 7 round 
+for 1 , (18,30), X^9+X^13+X^23 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.552500, the min avalanche entropy is 63.919496 for 7 round
+
+for 2 , (8,17), X^12+X^15+X^22 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.580000, the min avalanche entropy is 63.919828 for 7 round
+
+for 3 , (9,20), X^1+X^4+X^26 
+the min avalanche dependence is 64.000000, the min avalanche weight is 31.710000, the min avalanche entropy is 63.921028 for 7 round 

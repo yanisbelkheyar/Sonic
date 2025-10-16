@@ -46,19 +46,19 @@ Sonic512::Sonic512(cxxopts::Options& options) : Crypto(options["word-size"].as<i
     }
     
   for (int i = 0; i < num_rounds_; i++) {
-    permute(Xi[i], X[i+1], 111);
-    permute(Yi[i], Y[i+1], 111);
+    permute(Xi[i], X[i+1], 183);
+    permute(Yi[i], Y[i+1], 183);
     
     
     ConditionWordPtr c(new ConditionWord(C[30-num_rounds_+i],word_size_));
     for(int k = 1; k < 4; k++)
-      Add(new BitsliceStep<XOR<5>>(word_size_, X[i][k], X[i][k]->Shr(7), X[i][(k-1+4)%4]->Shl(word_size_-7), X[i][k]->Shr(32), X[i][(k-1+4)%4]->Shl(word_size_-32),  Yi[i][k]));
+      Add(new BitsliceStep<XOR<5>>(word_size_, X[i][k], X[i][k]->Shr(3), X[i][(k-1+4)%4]->Shl(word_size_-3), X[i][k]->Shr(20), X[i][(k-1+4)%4]->Shl(word_size_-20),  Yi[i][k]));
     
-    Add(new BitsliceStep<XOR<5>>(word_size_, X[i][0], X[i][0]->Shr(7), X[i][(0-1+4)%4]->Shl(word_size_-7), X[i][0]->Shr(32), X[i][(0-1+4)%4]->Shl(word_size_-32),  A[i][0]));
+    Add(new BitsliceStep<XOR<5>>(word_size_, X[i][0], X[i][0]->Shr(3), X[i][(0-1+4)%4]->Shl(word_size_-3), X[i][0]->Shr(20), X[i][(0-1+4)%4]->Shl(word_size_-20),  A[i][0]));
 
     Add(new BitsliceStep<XOR<2>>(word_size_, A[i][0], c, Yi[i][0]));
-    //Add(new LinearStep<Sonic512::Theta<0, 7, 32>>(word_size_, X[i][0], X[i][1], X[i][2], X[i][3], A[i][0], Yi[i][1], Yi[i][2], Yi[i][3]));
-    Add(new LinearStep<Sonic512::LinearRound<0, 7, 32, 5>>(word_size_, X[i][0], X[i][1], X[i][2], X[i][3], Y[i][0], Y[i][1], Y[i][2], Y[i][3], Z[i][0], Z[i][1], Z[i][2], Z[i][3], A[i][0], Yi[i][1], Yi[i][2], Yi[i][3], Xi[i][0], Xi[i][1], Xi[i][2], Xi[i][3]));
+    //Add(new LinearStep<Sonic512::Theta<0, 3, 20>>(word_size_, X[i][0], X[i][1], X[i][2], X[i][3], A[i][0], Yi[i][1], Yi[i][2], Yi[i][3]));
+    //Add(new LinearStep<Sonic512::LinearRound<0, 3, 20, 5>>(word_size_, X[i][0], X[i][1], X[i][2], X[i][3], Y[i][0], Y[i][1], Y[i][2], Y[i][3], Z[i][0], Z[i][1], Z[i][2], Z[i][3], A[i][0], Yi[i][1], Yi[i][2], Yi[i][3], Xi[i][0], Xi[i][1], Xi[i][2], Xi[i][3]));
     for(int k = 0; k < 4; k++){
       Add(new BitsliceStep<XOR2AND2>(word_size_, X[i][k]->Shr(1), X[i][(k-1+4)%4]->Shl(word_size_-1), X[i][k], Z[i][k]));
       Add(new BitsliceStep<XOR<4>>(word_size_, Z[i][k], X[i][k]->Shr(5), X[i][(k-1+4)%4]->Shl(word_size_-5), Y[i][k], Xi[i][k]));

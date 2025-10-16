@@ -67,12 +67,31 @@ def constant_add(word,round_nbr):
 
 ## Round function
 def Sonic_round(x,y,round_nbr):
+    # print("rc", hex(list_cc[round_nbr]), bin(list_cc[round_nbr]))
+    # print(round_constants[round_nbr])
+    # printbitarray(round_constants[round_nbr])
+    ## z = x AND τ(x)
     z = x & circular_shift(x,1)
+    ## y = y XOR τ^5(x) XOR z
     y = y ^ circular_shift(x,5) ^ z
+    #print("right branch before PI");
+    #printbitarray(y) #print(y) #
+    ## y = π_15(y)
     y = multiplicative_shuffle(y,15)
+    # print("right branch after PI");
+    # printbitarray(y) #print(y) #
+    ## x = x XOR τ^7(x) XOR τ^32(x)
     x = x ^ circular_shift(x,7) ^ circular_shift(x,32)
+    #print("left branch before rc");
+    #printbitarray(x) #print(x) #
+    ## x = π_15(x XOR rc)
     temp = constant_add(x,round_nbr)
+    #print("left branch before PI");
+    #printbitarray(temp) # print(temp) #
     x = multiplicative_shuffle(temp,15)
+    ## (x, y) = (y, x)
+    # print("left branch after PI");
+    # printbitarray(x) # print(x) #
     return (y,x)
 
 ## Permutation
@@ -80,12 +99,20 @@ def Sonic256_permutation(data_in):
     word_left = bitarray(data_in[0:H_SIZE], endian='little')
     word_right = bitarray(data_in[H_SIZE:SIZE], endian='little')
     for i in range(NBR_ROUND):
+        # print("round",i)
         word_left,word_right = Sonic_round(word_left,word_right,NBR_ROUND-1-i)
+        # print("round output");
+        # printbitarray(word_left)
+        # printbitarray(word_right)
+        # print()
     
     # correction
     word_left = multiplicative_shuffle(word_left, 65)
     word_right = multiplicative_shuffle(word_right, 65)
     
+    # print("after final shuffle");
+    # printbitarray(word_left)
+    # printbitarray(word_right)
     return word_left+word_right
 
 ###################################################################
@@ -101,6 +128,14 @@ def SonicBoom(data_in,key):
     # xor permutation output with the key
     data_out = perm_out ^ key;
     return data_out
+
+###################################################################
+#                               SoniK                             #
+###################################################################
+
+# TODO
+
+
 
 
 ###################################################################
@@ -279,6 +314,6 @@ def test_sonicBoom():
 
 if __name__ == "__main__":
     
-    test_sonic256();
+    #test_sonic256();
     test_sonicBoom();
     

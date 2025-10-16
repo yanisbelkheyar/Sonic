@@ -31,24 +31,23 @@ from argparse import ArgumentParser, RawTextHelpFormatter
 # import datetime
 
 
-
 class Sonic:
     count = 0
-    def __init__(self, nrounds=10, solver_name="cadical153", word_size=4, branches=32):
+    def __init__(self, nrounds=10, solver_name="cadical103", word_size=32, branches=2):
         Sonic.count += 1
         self.nrounds = nrounds
         self.sat_solver_name = solver_name
         self.supported_sat_solvers = list(solvers.SolverNames.cadical153) + \
-             list(solvers.SolverNames.cadical103) + \
-               list(solvers.SolverNames.glucose4) + \
-                   list(solvers.SolverNames.glucose3) + \
-                       list(solvers.SolverNames.lingeling) + \
-                           list(solvers.SolverNames.maplesat) + \
-                           list(solvers.SolverNames.maplechrono) + \
-                               list(solvers.SolverNames.maplecm) + \
-                                   list(solvers.SolverNames.minicard) + \
-                                       list(solvers.SolverNames.minisat22) + \
-                                           list(solvers.SolverNames.minisatgh)
+            list(solvers.SolverNames.cadical103) + \
+            list(solvers.SolverNames.glucose4) + \
+            list(solvers.SolverNames.glucose3) + \
+            list(solvers.SolverNames.lingeling) + \
+            list(solvers.SolverNames.maplesat) + \
+            list(solvers.SolverNames.maplechrono) + \
+            list(solvers.SolverNames.maplecm) + \
+            list(solvers.SolverNames.minicard) + \
+            list(solvers.SolverNames.minisat22) + \
+            list(solvers.SolverNames.minisatgh)
         assert(self.sat_solver_name in self.supported_sat_solvers)
         if self.sat_solver_name in solvers.SolverNames.cadical153:
             self.sat_solver = solvers.Cadical153()
@@ -94,7 +93,7 @@ class Sonic:
         # xor3 output: 4
         self.xor3_cnf_template = [[-2, -3], [-1, -3], [-1, -2], [-3, 4], [-2, 4], [-1, 4], [1, 2, 3, -4]]
         self.xor3_with_constant_cnf_template = [[-2, -3], [-1, -3], [-1, -2], [-3, 4], [-2, 4], [-1, 4]]
-    
+        
 
     def update_variables_dictionary(self, new_vars):
         """
@@ -127,7 +126,7 @@ class Sonic:
         for i in range(self.word_size):
             temp[(i*val)%self.word_size] = state[i]
         return temp
-        
+    
     
     def generate_round_x_variables(self, rn):
         """
@@ -150,18 +149,18 @@ class Sonic:
         self.update_variables_dictionary(self.flatten_state(z))
         self.update_variables_dictionary(self.flatten_state(k))
         return y, z, k
-        
+    
     def constraints_by_fork(self, a, b1, b2):
         """
         a ---fork---> (b1, b2)
         """
 
         self.cnf_formula.append([-self.variables_dictionary[a],\
-                                self.variables_dictionary[b1],\
-                                self.variables_dictionary[b2]])
+                                 self.variables_dictionary[b1],\
+                                 self.variables_dictionary[b2]])
         self.cnf_formula.append([-self.variables_dictionary[b1], self.variables_dictionary[a]])
         self.cnf_formula.append([-self.variables_dictionary[b2], self.variables_dictionary[a]])
-    
+        
     def word_fork(self, s, s1, s2):
         constraints = ""
         for bit in range(self.word_size):
@@ -180,8 +179,8 @@ class Sonic:
                     temp.append(substitution_list[index - 1])
                 else:
                     temp.append(-substitution_list[abs(index) - 1])
-            self.cnf_formula.append(temp)
-    
+                    self.cnf_formula.append(temp)
+                    
     def word_xor(self, s1, s2, s):
         for bit in range(self.word_size):
             self.constraints_by_xor(s1[bit], s2[bit], s[bit])
@@ -198,12 +197,12 @@ class Sonic:
                     temp.append(substitution_list[index - 1])
                 else:
                     temp.append(-substitution_list[abs(index) - 1])
-            self.cnf_formula.append(temp)
-    
+                    self.cnf_formula.append(temp)
+                    
     def word_and(self, s1, s2, s):
         for bit in range(self.word_size):
             self.constraints_by_and(s1[bit], s2[bit], s[bit])
-    
+            
     def constraints_by_3xor(self, a1, a2, a3, b, constant=0):
         """
         a1, a2, a3 ---> b = a1 + a2 + a3
@@ -224,13 +223,13 @@ class Sonic:
                     temp.append(substitution_list[index - 1])
                 else:
                     temp.append(-substitution_list[abs(index) - 1])
-            self.cnf_formula.append(temp)
-    
+                    self.cnf_formula.append(temp)
+                    
     def word_3xor(self, s1, s2, s3, s, constant=0):
         for bit in range(self.word_size):
             constant_bit = (constant >> (self.word_size - 1 - bit)) & 0x1
             self.constraints_by_3xor(s1[bit], s2[bit], s3[bit], s[bit], constant_bit)
-    
+            
     def generate_constraints(self):
         """
         Generate the constraints of MILP model
@@ -243,18 +242,19 @@ class Sonic:
             x_middle = self.inv_permute_words(x_out)
             for word in range(self.branches//2):
                 if rn == 0:
-                  self.word_fork(x_in[2*word], y[5*word], y[5*word+1])
+                    self.word_fork(x_in[2*word], y[5*word], y[5*word+1])
                 else:
-                  self.word_fork(self.permute_word(x_in[2*word],15), y[5*word], y[5*word+1])
-                self.word_fork(y[5*word+1], y[5*word+2], y[5*word+3])
-                self.word_fork(y[5*word+3], y[5*word+4], y[5*word+5])
-                self.word_fork(y[5*word+5], y[5*word+6], y[5*word+7])
-                self.word_fork(y[5*word+7], y[5*word+8], y[5*word+9])
-                self.word_3xor(self.rot_left_word(y[5*word+6],1), self.rot_left_word(y[5*word+8],8), self.rot_left_word(y[5*word+9],10), y[5*word+10])
-                self.word_xor(y[5*word+10], k[word], x_middle[2*word])
-                self.word_and(self.rot_left_word(y[5*word],0),self.rot_left_word(y[5*word+2],1), z[2*word])
-                self.word_3xor(z[2*word], self.rot_left_word(y[5*word+4],2), x_in[2*word + 1], x_middle[2*word + 1])
-    
+                    #self.word_fork(self.permute_word(x_in[2*word],15), y[5*word], y[5*word+1])
+                    self.word_fork(self.permute_word(x_in[2*word],15), y[5*word], y[5*word+1])
+                    self.word_fork(y[5*word+1], y[5*word+2], y[5*word+3])
+                    self.word_fork(y[5*word+3], y[5*word+4], y[5*word+5])
+                    self.word_fork(y[5*word+5], y[5*word+6], y[5*word+7])
+                    self.word_fork(y[5*word+7], y[5*word+8], y[5*word+9])
+                    self.word_3xor(self.rot_left_word(y[5*word+6],1), self.rot_left_word(y[5*word+8],8), self.rot_left_word(y[5*word+9],10), y[5*word+10])
+                    self.word_xor(y[5*word+10], k[word], x_middle[2*word])
+                    self.word_and(self.rot_left_word(y[5*word],0),self.rot_left_word(y[5*word+2],1), z[2*word])
+                    self.word_3xor(z[2*word], self.rot_left_word(y[5*word+4],2), x_in[2*word + 1], x_middle[2*word + 1])
+                    
     def exclude_key_independent_term(self):
         """
         Limit the key variables to not be all zero
@@ -263,7 +263,7 @@ class Sonic:
         key_vars = [self.variables_dictionary[var] \
             for var in self.variables_dictionary.keys() if "k" in var]
         self.cnf_formula.append(key_vars)
-    
+        
     def generate_sat_model(self):
         self.generate_constraints()
         self.exclude_key_independent_term()
@@ -281,7 +281,7 @@ class Sonic:
                 input_active_pattern.append(-self.variables_dictionary[input_vars[i]])
             else:
                 input_active_pattern.append(self.variables_dictionary[input_vars[i]])
-        
+                
         balanced_bits = []
         not_checked_bits = []
         start_time = time.time()
@@ -292,9 +292,9 @@ class Sonic:
                     output_active_pattern.append(-self.variables_dictionary[output_vars[i]])
                 else:
                     output_active_pattern.append(self.variables_dictionary[output_vars[i]])
-            assumptions = input_active_pattern + output_active_pattern
-            ##########################
-            ##########################
+                    assumptions = input_active_pattern + output_active_pattern
+                    ##########################
+                    ##########################
             result = self.sat_solver.solve(assumptions=assumptions)
             ##########################
             ##########################
@@ -320,7 +320,7 @@ class Sonic:
             outputfile.write(f"Fixed input positions: {fixed_indices}\n")
             outputfile.write(f"Key-independent output positions: {balanced_bits}\n")
             outputfile.write(f"Number of key-independent bits: {number_of_balanced_bits}\n")
-        ####################################################################################
+            ####################################################################################
         return balanced_bits
 
 def parse_args():
@@ -329,37 +329,37 @@ def parse_args():
     """
 
     parser = ArgumentParser(description="This tool derives and solves the SAT "
-                                        "model corresponding to integral analysis "
-                                        "based on monomial prediction",
+                            "model corresponding to integral analysis "
+                            "based on monomial prediction",
                             formatter_class=RawTextHelpFormatter)
-    parser.add_argument("-nr", "--nrounds", default=21, type=int, help="number of rounds\n")
+    parser.add_argument("-nr", "--nrounds", default=5, type=int, help="number of rounds\n")
     parser.add_argument("-sl", "--solver", default="minisat22", type=str,
                         choices=['cadical153', 'cadical103', 'glucose3', 'glucose4', 'lingeling', 'maplechrono', 'maplecm', 'maplesat', 'minicard', 'minisat22', 'minisat-gh'],
                         help="choose a SAT solver\n")
-    parser.add_argument("-bl", "--blocksize", default=128, type=int, help="block size\n")
+    parser.add_argument("-bl", "--blocksize", default=32, type=int, help="block size\n")
     return vars(parser.parse_args())
 
 if __name__ == '__main__':
     locals().update(parse_args())    
     separator_line = "#"*100 + "\n"
     sonic = Sonic(nrounds=nrounds,
-                solver_name=solver, word_size=blocksize//2, branches=2)
+                  solver_name=solver, word_size=blocksize//2, branches=2)
     with open(sonic.result_file_name, "w") as outputfile:
         outputfile.write(f"Results of applying monomial prediction method on {sonic.nrounds} rounds of Sonicpermute_{blocksize}\n")
-    mp_dict = dict()
-    sonic.generate_sat_model()
+        mp_dict = dict()
+        sonic.generate_sat_model()
     if not os.path.exists(f"mpdict_{blocksize}_nr_{sonic.nrounds}.pyobj"):
         start_time = time.time()
         for bit in range(0, blocksize):            
             print(separator_line)
             print(f"Fixed index: {bit}")
             mp_dict[(bit,)] = sonic.check_cube(fixed_indices=[bit], target_output_bits = range(blocksize))
-        elapsed_time = time.time() - start_time
-        time_line = "Total time to compute monomial prediction dictionary (mpdict): {:0.02f}\n".format(elapsed_time)        
+            elapsed_time = time.time() - start_time
+            time_line = "Total time to compute monomial prediction dictionary (mpdict): {:0.02f}\n".format(elapsed_time)        
         with open(sonic.result_file_name, "a") as outputfile:
             outputfile.write(time_line)
-        print(time_line)
-        # Store the results in non-volatile memory for later uses
+            print(time_line)
+            # Store the results in non-volatile memory for later uses
         with open(f"mpdict_{blocksize}_nr_{sonic.nrounds}.pyobj", "wb") as mp_dict_file:
             pickle.dump(mp_dict, mp_dict_file)
     else:
@@ -377,7 +377,7 @@ if __name__ == '__main__':
         print(separator_line)
         print(f"Checking constant parts of size {constant_part_size} bits")
         total_possible_cases = factorial(sf_size) // \
-                         (factorial(sf_size - constant_part_size) * factorial(constant_part_size))
+            (factorial(sf_size - constant_part_size) * factorial(constant_part_size))
         total_possible_cases = log2(total_possible_cases)
         print("Worst-case complexity: 2^({:0.02f})".format(total_possible_cases))        
         time.sleep(5)
@@ -387,11 +387,11 @@ if __name__ == '__main__':
             if common_output_bbits != {}:
                 key_independent_bits = sonic.check_cube(fixed_indices=list(fixed_indices), 
                                                         target_output_bits=list(common_output_bbits))
-                if key_independent_bits != []:
+                if key_independent_bits != [] and constant_part_size<sf_size:
                     flag = True
                     constant_part_size += 1
                     break
-    
+                
     # Find a set of fixed inidces yielding the maximum number of key-independent bits
     best_fixed_positions = (blocksize,)
     mp_dict[(blocksize,)] = []
@@ -403,7 +403,7 @@ if __name__ == '__main__':
             common_output_bbits = set.intersection(*balanced_sets)
             if common_output_bbits != {}:
                 key_independent_bits = sonic.check_cube(fixed_indices=list(fixed_indices), 
-                                                            target_output_bits=list(common_output_bbits))
+                                                        target_output_bits=list(common_output_bbits))
                 if len(key_independent_bits) >= 1:
                     outputfile.write(separator_line)
                     outputfile.write(f"{fixed_indices} ==> {key_independent_bits}\n")

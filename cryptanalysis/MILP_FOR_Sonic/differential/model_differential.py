@@ -127,7 +127,7 @@ def set_obj(NBR_round,min_weight):
         for j in range(H_SONIC_SIZE):
             Q += x[i,j] + A[i,j]
 
-    P.addConstr(Q>=min_weight[NBR_round])
+    #P.addConstr(Q>=min_weight[NBR_round])
     
     P.setObjective(Q,GRB.MINIMIZE)
 
@@ -137,7 +137,48 @@ def add_constraint(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round):
     if(not (P.NumConstrs==0)):
         P.remove(P.getConstrs()[0:P.NumConstrs-1])
 
+    #if(SONIC_SIZE==512):
+    #    P.addConstr(x[0,0]>=1)
+    #    for i in range(H_SONIC_SIZE):
+    #        P.addConstr(x[0,H_SONIC_SIZE+i]==0)    
+    #else:
     P.addConstr(x[0,0]+x[1,0]>=1) 
+
+
+    for round in range(NBR_round-1,NBR_ROUND):
+        for i in range(SONIC_SIZE):
+            if(round>NBR_round):
+                P.addConstr(x[round,i]==0)
+                if(i<H_SONIC_SIZE):
+                    P.addConstr(A[round,i]==0)
+            if(i<H_SONIC_SIZE):
+                P.addConstr(xp[round,i]==0)
+                P.addConstr(e[round,i]==0)
+                P.addConstr(f[round,i]==0)
+            P.addConstr(y[round,i]==0)
+
+    for i in range(NBR_round-1):
+        NL_part(i,SNL1,SNL2)
+        xor_right(i,SLR1)
+        xor_left(i,SLL1,SLL2,SLL3)
+        shuffle_mul(i,M)
+        shuffle(i)
+        set_001(i)
+
+    set_001(NBR_round-1)
+
+    set_obj(NBR_round,min_weight)
+
+
+#add the constraint for NBR_round of the round function with the rotation value specify as argument to the model P
+def add_constraint_duplex(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round):
+    if(not (P.NumConstrs==0)):
+        P.remove(P.getConstrs()[0:P.NumConstrs-1])
+
+
+    P.addConstr(x[0,0]>=1)
+    for i in range(H_SONIC_SIZE):
+        P.addConstr(x[0,H_SONIC_SIZE+i]==0)    
 
 
     for round in range(NBR_round-1,NBR_ROUND):
@@ -170,7 +211,12 @@ def add_constraint_full(SNL1,SNL2,SLR1,SLL1,SLL2,SLL3,M,min_weight,NBR_round):
     if(not (P.NumConstrs==0)):
         P.remove(P.getConstrs()[0:P.NumConstrs-1])
 
-    P.addConstr(x[0,0]+x[0,H_SONIC_SIZE]>=1)
+    if(SONIC_SIZE==512):
+        P.addConstr(x[0,0]>=1)
+        for i in range(H_SONIC_SIZE):
+            P.addConstr(x[0,H_SONIC_SIZE+i]==0)  
+    else:
+        P.addConstr(x[0,0]+x[0,H_SONIC_SIZE]>=1) 
     #P.addConstr(x[0,0]+x[0,1]==2)
 
     for round in range(NBR_round,NBR_ROUND):
